@@ -1,0 +1,253 @@
+.sidebar {
+    position:relative;
+    float:left;
+    height:90vh;
+    width:20vw;
+    margin:0;
+    padding:0;
+    background:linear-gradient(rgb(43, 50, 109),rgb(15, 20, 46));
+    -webkit-box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
+    z-index:100;
+}
+
+.sidebar-navbar {
+    position:relative;
+    float:left;
+    height:90vh;
+    width:5vw;
+    background:#62c1da;
+    background:rgb(29, 31, 61);
+    background:linear-gradient(rgb(29, 31, 61), rgb(14, 8, 32))
+}
+
+.sidebar-icons-outer {
+    position:absolute;
+    width:5vw;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+.sidebar-icon {
+    position:relative;
+    float:left;
+    height:60px;
+    width:5vw;
+    text-align:center;
+    line-height: 60px;
+    font-size:24px;
+    color:#fff;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    transition:all .2s ease-in-out;
+    opacity:0.6;
+}
+
+.sidebar-icon-active {
+    opacity:1;
+}
+
+.sidebar-icon::after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:60px;
+    width:2px;
+    background:#fff;
+    margin:0;
+    padding:0;
+}
+
+.sidebar-icon-hover::after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:60px;
+    width:10px;
+    background:#fff;
+    margin:0;
+    padding:0;
+    opacity:0.5;
+    transition:width .1s ease-in-out;
+}
+
+.sidebar-icon-active::after {
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:60px;
+    width:10px;
+    background:#fff;
+    margin:0;
+    padding:0;
+}
+
+.sidebar-icon img {
+    margin:0;
+    padding:0;
+}
+
+.sidebar-content-outer {
+    position:relative;
+    float:right;
+    height:90vh;
+    width:15vw;
+    overflow:hidden;
+}
+
+.sidebar-content {
+    position:absolute;
+    height:90vh;
+    width:15vw;
+    margin:0;
+    padding:0;
+    top:-90vh;
+    left:0;
+    overflow:hidden;
+}
+
+.sidebar-content-active {
+    top:0;
+}
+
+.sidebar-header {
+    position:relative;
+    float:left;
+    height:10vh;
+    width:100%;
+    margin:0;
+    padding:0;
+    -webkit-box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
+}
+
+.sidebar-header span {
+    position:absolute;
+    height:10vh;
+    width:100%;
+    top:0;
+    left:50%;
+    transform:translate(-50%,0);
+    margin:0;
+    padding-left:30px;
+    line-height:10vh;
+    text-align:left;
+    font-size:18px;
+    color:rgba(255, 255, 255, 0.829);
+    font-weight:bold;
+}
+
+.new-playlist-toggle {
+    position:absolute;
+    top:50%;
+    right:0;
+    height:30px;
+    width:60px;
+    transform:translate(-20px, -50%);
+    text-align:center;
+    line-height:30px;
+    font-size:16px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.new-playlist-form {
+    display:none;
+    position:relative;
+    float:left;
+    height:10vh;
+    width:100%;
+    margin:0;
+    padding:0;
+    border-bottom:1px solid rgba(255, 255, 255, 0.486);
+    transition:display .1s ease-in-out;
+}
+
+.new-playlist-name {
+    position:relative;
+    float:left;
+    height:10vh;
+    width:40%;
+    line-height:10vh;
+    outline:none;
+    border:none;
+    color:#fff;
+    text-align:left;
+    padding-left:20px;
+    font-size:14px;
+    background:none;
+}
+
+.new-playlist-submit {
+    position:absolute;
+    height:30px;
+    width:60px;
+    top:50%;
+    right:0;
+    transform:translate(-20px, -50%);
+    text-align:center;
+    line-height:30px;
+    font-size:16px;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius:5px;
+    cursor:pointer;
+    transition:all .1s ease-in-out
+}
+
+.new-playlist-submit:hover, .new-playlist-toggle:hover {
+    background:#fff;
+    color:rgb(100, 111, 172);
+}
+
+.sidebar-list {
+    position:relative;
+    float:left;
+    height:80vh;
+    width:100%;
+    margin:0;
+    padding:0;
+    padding-right:50px;
+    overflow-y:scroll;
+    transition:height .1s ease-in-out;
+}
+
+.new-playlist-form-visible {
+    display:block;
+}
+
+.sidebar-list-short {
+    height:70vh;
+}
+
+.sidebar-list ul {
+    list-style:none;
+    padding-left:30px;
+    list-style-type: none;
+}
+
+.sidebar-list ul li {
+    width:95%;
+    margin:15px 0;
+    display:block;
+    text-align:left;
+    line-height: 30px;
+    font-size:16px;
+    color:rgb(254, 253, 255);
+    cursor:pointer;
+}
+
+.sidebar-list ul li:hover {
+    color:rgb(139, 148, 226);
+}

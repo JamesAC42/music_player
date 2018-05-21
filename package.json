@@ -1,0 +1,20 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.0",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "music-metadata": "^0.11.4",
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
