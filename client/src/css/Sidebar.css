@@ -48,7 +48,7 @@
     opacity:0.6;
 }
 
-.sidebar-icon-active {
+.sidebar-icon:hover {
     opacity:1;
 }
 
@@ -64,7 +64,7 @@
     padding:0;
 }
 
-.sidebar-icon-hover::after {
+.sidebar-icon:hover::after {
     content:'';
     position:absolute;
     top:0;
@@ -74,8 +74,12 @@
     background:#fff;
     margin:0;
     padding:0;
-    opacity:0.5;
+    opacity:1;
     transition:width .1s ease-in-out;
+}
+
+.sidebar-icon-active {
+    opacity:1;
 }
 
 .sidebar-icon-active::after {
@@ -88,6 +92,7 @@
     background:#fff;
     margin:0;
     padding:0;
+    opacity:1;
 }
 
 .sidebar-icon img {

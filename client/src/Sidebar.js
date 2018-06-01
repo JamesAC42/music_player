@@ -91,8 +91,7 @@ class SidebarContentItem extends Component {
     }
 
     changeActiveIndex(e) {
-        let index = e.target.name;
-        console.log(e.target);
+        let index = e.target.innerHTML;
         this.props.onActiveIndexChange(index);
     }
 
@@ -101,7 +100,7 @@ class SidebarContentItem extends Component {
         if(!keys.length) return;
         return (
             keys.map(item => 
-                <li key={item} name={item} onClick={this.changeActiveIndex}>{item}</li>
+                <li key={item} onClick={this.changeActiveIndex}>{item}</li>
             )
         )
     }
@@ -192,21 +191,25 @@ class Sidebar extends Component {
     }
 
     onActiveIndexChange(index) {
-        //this.props.onActiveCategoryChange(this.state.visible);
-        //this.props.onActiveIndexChange(index);
-        console.log(index);
+        this.props.onActiveCategoryChange(this.state.visible);
+        this.props.onActiveIndexChange(index);
     }
 
     onChangeVisibleCat(name) {
-        console.log(name);
         this.setState({visible:name});
     }
 
     render() {
         return (
             <div className="sidebar">
-                <SidebarIcons data={this.props.data} active={this.state.visible} onChangeVisibleCat={this.onChangeVisibleCat}/>
-                <SidebarContent data={this.props.data} visible={this.state.visible} onActiveIndexChange={this.onActiveIndexChange}/>
+                <SidebarIcons 
+                    data={this.props.data}
+                    active={this.state.visible}
+                    onChangeVisibleCat={this.onChangeVisibleCat}/>
+                <SidebarContent
+                    data={this.props.data}
+                    visible={this.state.visible}
+                    onActiveIndexChange={this.onActiveIndexChange}/>
             </div>
         );
     }
