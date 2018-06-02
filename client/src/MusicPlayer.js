@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './css/MusicPlayer.css';
 import Sidebar from './Sidebar.js';
 import IndexView from './IndexView.js';
+import NowPlaying from './NowPlaying.js';
 /*
-import NowPlayingBar from 'NowPlayingBar.js';
 import SuccessMessage from 'SuccessMessage.js';
 import PlaylistSelect from 'PlaylistSelect.js';
 */
@@ -24,19 +24,33 @@ class MusicPlayer extends Component {
         super(props);
         this.state = {
             data: {
-                "songs":{},
-                "albums":{},
-                "artists":{},
-                "playlists":{},
-                "genres":{},
-                "all":{}    
+                songs:{},
+                albums:{},
+                artists:{},
+                playlists:{},
+                genres:{},
+                all:{}    
             },
-            "activeCategory": null,
-            "activeIndex": null,
-            "activeSong": null,
-            "queueVisible": false,
-            "queue": [],
-            "nowPlaying":{}
+            activeCategory: null,
+            activeIndex: null,
+            activeSong: null,
+            queueVisible: false,
+            queue: [],
+            nowPlaying:{
+                item: {
+                    title: "",
+                    cover: "",
+                    path: "",
+                    artist: "",
+                    album: "",
+                    genre: []
+                },
+                length: null,
+                currentTime: null
+            },
+            loop:false,
+            shuffle:false,
+            volume: 1
         };
         this.onActiveCategoryChange = this.onActiveCategoryChange.bind(this);
         this.onActiveIndexChange = this.onActiveIndexChange.bind(this);
@@ -71,6 +85,54 @@ class MusicPlayer extends Component {
         this.setState({activeIndex:decode(index)});
     }
 
+    playIndex(category, index, number) {
+
+    }
+
+    addToQueue(songs) {
+
+    }
+
+    playNext(songs) {
+
+    }
+
+    addToPlaylist(songs) {
+
+    }
+
+    skipTo(number) {
+
+    }
+
+    nextSong() {
+
+    }
+
+    previousSong() {
+
+    }
+
+    pause() {
+
+    }
+
+    play() {
+
+    }
+
+    seekTo(time) {
+
+    }
+
+    toggleShuffle() {
+
+    }
+
+    toggleLoop() {
+
+    }
+
     render() {
         return (
             <div>
@@ -84,7 +146,18 @@ class MusicPlayer extends Component {
                     activeCategory={this.state.activeCategory}
                     activeIndex={this.state.activeIndex}
                     activeSong={this.state.activeSong}
-                    queueVisible={this.state.queueVisible}/>
+                    queueVisible={this.state.queueVisible}
+                    playIndex={this.playIndex}
+                    playSong/>
+                <NowPlaying
+                    nowPlaying={this.state.nowPlaying}
+                    togglePlay={this.togglePlay}
+                    previousSong={this.previousSong}
+                    nextSong={this.nextSong}
+                    seekTo={this.seekTo}
+                    toggleShuffle={this.toggleShuffle}
+                    toggleQueue={this.toggleQueue}
+                    toggleLoop={this.toggleLoop}/>
             </div>
         );
     }

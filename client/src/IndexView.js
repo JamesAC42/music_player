@@ -182,7 +182,8 @@ class MusicItem extends Component {
     return (
       <div 
         className={musicItemClass} 
-        name={this.props.id} >
+        name={this.props.id} 
+        onClick={this.playItem} >
 
         {
           (isPlaylist || this.props.queue ) &&
