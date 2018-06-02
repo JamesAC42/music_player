@@ -73,7 +73,8 @@ let walk = (dir, done) => {
                                     coverName = coverName.replace(/\s+/g,'-');
                                     coverName = coverName.replace(/[^a-zA-Z0-9\-.]/g,'-');
                                     let coverExt = tags.picture[0].format;
-                                    let coverPath = "covers\\" + coverName + "." + coverExt;
+                                    let fileName = "\\" + coverName + "." + coverExt;
+                                    let coverPath = "client\\public\\covers" + fileName;
                                     fs.writeFile(
                                         coverPath, 
                                         binaryData, 
@@ -81,12 +82,14 @@ let walk = (dir, done) => {
                                         function(err){
                                             console.log("No album art");
                                         });
-                                    entry.cover = coverPath;
+                                    entry.cover = fileName;
                                 } else {
                                     entry.cover = "";
                                 }
 
-                                entry.path = path.relative(process.cwd(), dir + "/" + newname);
+                                let musicPath = path.relative(process.cwd(), dir + "/" + newname);
+                                musicPath = musicPath.split('client\\public')[1];
+                                entry.path = musicPath; //path.relative(process.cwd(), dir + "/" + newname);
                                     
                                 entry.artist = (tags.artist === undefined) ? 
                                     "None" : tags.artist;
@@ -131,11 +134,11 @@ let walk = (dir, done) => {
     });
 }
 
-if (fs.existsSync("./music")){
-    if (!fs.existsSync("./covers")){
-        fs.mkdirSync("./covers");
+if (fs.existsSync("./client/public/music")){
+    if (!fs.existsSync("./client/public/covers")){
+        fs.mkdirSync("./client/public/covers");
     }
-    walk("music/", (err, result) => {
+    walk("./client/public/music/", (err, result) => {
         if(err) throw err;
         fs.writeFile("music_saves.json", JSON.stringify(result, null, '  '), "utf8", callback=>{return});
     });
