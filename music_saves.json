@@ -1,1303 +1,272 @@
 {
   "songs": {
-    "music": [
-      "btg23m2k8yqkn7vr"
-    ],
     "hall_and_oates": [
-      "tvk9e88p09jxqrm1",
-      "en16xdymhawhxkeh",
-      "s882wor8z7moe6um",
-      "qxnuwagyc4520dn6",
-      "yliszor4mgllqzqc",
-      "9e79sh9ra3qmnt0e",
-      "nhid159vo5bq7zge",
-      "wcam3wsq4pazwbdq",
-      "6thygk7v5oc6hk5g",
-      "kq58329y5dknlgv8",
-      "nnxnahf89b9pf9k2",
-      "zlmkif3intylinjt",
-      "faoihwdhqsrb0lx2",
-      "h0cqk40laonijil4",
-      "vuf54ab696cbe0xi",
-      "woe3npyeczl04j6n",
-      "dfh9hjrhr89qxx3c",
-      "8fby7w6vzmwdy6e1"
-    ],
-    "fleetwood_mac": [
-      "9yz20wvua8ds3cfz",
-      "af7qx0rzr0fzecq2",
-      "jbicu63nohwsp63m",
-      "sisq1lea1996c117",
-      "emya2rlitzx7n6xg",
-      "avfcl029tt18ra6q",
-      "9x9c5y04luj1y3n1",
-      "rdcgkn82hscabqz9",
-      "eaxo5nk9kpukjcq7",
-      "iosdclek5djsachb",
-      "ztokfv6ypmw6n75a",
-      "3nt8stvrsak9rmfn",
-      "z1kw4dph5g7k3pk7",
-      "fudrzs48htw70fen",
-      "cq333vrvahwrdtqc",
-      "1i66vo9jhmxmyegu",
-      "q6543l1njvl0bkr9",
-      "lr9w3m30yk1m9kr1",
-      "mcw7w0ow2isbkvia",
-      "z3tju32ktxfec5ch",
-      "mbdlhlnj2of9xwtp"
-    ],
-    "queen": [
-      "y8e1owgr0r2fgacy",
-      "bfngo2fb1qxfc2i4",
-      "7ct56ialamjkyh5x",
-      "al50drg8jq54y5fq",
-      "ye6fb9t64ij3thrb",
-      "9kmekkxb4nopiaft",
-      "rave9jbirvdatke6",
-      "lb7njhtvptpjm319",
-      "qqebw4yv1luuz64h",
-      "4dfv7dm2ld2fv2x7",
-      "c83yvjkpcqbtne7n",
-      "ktwzadlr3uqhf4zh",
-      "qlr12odxfvz60e0f",
-      "10kpud0qik7n6ikr",
-      "46lpewhawsoe9i99",
-      "v4vi7czmsx7b6dee",
-      "geshoctp5i7itt5t",
-      "8qema4mrz71vm2cj",
-      "1i5omm7n3vc6vscw",
-      "179xg9jpsjvxbf2h",
-      "qqaosucvcikh83w6",
-      "cwppn0k934skwxjs",
-      "6h0jixmj3wn0e86s",
-      "3qud6bea251dga17",
-      "q42n3nuztaq7lmsx",
-      "9kd1eesvy696eduq",
-      "c08a2onj9k3z9n9s",
-      "g62qql6fd3yl4fgi",
-      "mgggv2xzv3fhmwjq",
-      "85tkhwfp0b3tipap",
-      "vqnn8ezcw4bq13n6",
-      "0s9jind7qzxb60mv",
-      "v89s5kxide2h3rct",
-      "qsv2f3lsec3ylvdq",
-      "b528z2w05o7sr8hd"
-    ],
-    "supertramp": [
-      "k5isrf2ediotp9e8",
-      "dzdrcdqnpwac3sf4",
-      "jdxn8gxl5n2fwaff",
-      "ypf41cf4wrokcgy0",
-      "03f77o5f1aza2ff2",
-      "9jhgmvke7dv0tkj0",
-      "7yhxev0cz48ld54q",
-      "7kxjn887ugtcij6w",
-      "mrteqzo1pv16ixpf",
-      "65s45eo7c6uxf5p7",
-      "v6a1tyux6nxk9y9g",
-      "uuhpybaxlksi9xy4",
-      "6jax0gs8px2x6zp9",
-      "tbzkfaske253k13p",
-      "i3d2rx1r160hu6wf"
+      "ugw31f6af9fmbhg9",
+      "cxc21dnkto9ve9so",
+      "nwkzdrxoalj2klrb",
+      "gtl1juk1qlwb3pfr",
+      "ordzabjjaa6dr8e3",
+      "t0nlnevfsv70gt2w",
+      "m8piw73n37dw05sj",
+      "jp9xd3w5k4xn1k1t",
+      "7yw74877dwi7khtu",
+      "zlb9yx2eq7dbohq9",
+      "w5gqxngxdcaq6fze",
+      "uv0z3hmbpn2a7vc1",
+      "u2hyiep90n6egets",
+      "hq4k3xygen7df4ls",
+      "au7p9i58qz9xli7r",
+      "01h6xyfouvjtnufe",
+      "m77jh1whmytby6pf",
+      "yz3z181sqgemfqrz"
     ]
   },
   "albums": {
-    "None": [
-      "btg23m2k8yqkn7vr"
-    ],
     "Timeless Classics": [
-      "tvk9e88p09jxqrm1",
-      "en16xdymhawhxkeh",
-      "s882wor8z7moe6um",
-      "qxnuwagyc4520dn6",
-      "yliszor4mgllqzqc",
-      "9e79sh9ra3qmnt0e",
-      "nhid159vo5bq7zge",
-      "wcam3wsq4pazwbdq",
-      "6thygk7v5oc6hk5g",
-      "kq58329y5dknlgv8",
-      "nnxnahf89b9pf9k2",
-      "zlmkif3intylinjt",
-      "faoihwdhqsrb0lx2",
-      "h0cqk40laonijil4",
-      "vuf54ab696cbe0xi",
-      "woe3npyeczl04j6n",
-      "dfh9hjrhr89qxx3c",
-      "8fby7w6vzmwdy6e1"
-    ],
-    "The Very Best Of Fleetwood Mac": [
-      "9yz20wvua8ds3cfz",
-      "af7qx0rzr0fzecq2",
-      "jbicu63nohwsp63m",
-      "sisq1lea1996c117",
-      "emya2rlitzx7n6xg",
-      "avfcl029tt18ra6q",
-      "9x9c5y04luj1y3n1",
-      "rdcgkn82hscabqz9",
-      "eaxo5nk9kpukjcq7",
-      "iosdclek5djsachb",
-      "ztokfv6ypmw6n75a",
-      "3nt8stvrsak9rmfn",
-      "z1kw4dph5g7k3pk7",
-      "fudrzs48htw70fen",
-      "cq333vrvahwrdtqc",
-      "1i66vo9jhmxmyegu",
-      "q6543l1njvl0bkr9",
-      "lr9w3m30yk1m9kr1",
-      "mcw7w0ow2isbkvia",
-      "z3tju32ktxfec5ch",
-      "mbdlhlnj2of9xwtp"
-    ],
-    "The Ultimate Best Of Queen": [
-      "y8e1owgr0r2fgacy",
-      "bfngo2fb1qxfc2i4",
-      "7ct56ialamjkyh5x",
-      "al50drg8jq54y5fq",
-      "ye6fb9t64ij3thrb",
-      "9kmekkxb4nopiaft",
-      "rave9jbirvdatke6",
-      "lb7njhtvptpjm319",
-      "qqebw4yv1luuz64h",
-      "4dfv7dm2ld2fv2x7",
-      "c83yvjkpcqbtne7n",
-      "ktwzadlr3uqhf4zh",
-      "qlr12odxfvz60e0f",
-      "10kpud0qik7n6ikr",
-      "46lpewhawsoe9i99",
-      "v4vi7czmsx7b6dee",
-      "geshoctp5i7itt5t",
-      "8qema4mrz71vm2cj",
-      "1i5omm7n3vc6vscw",
-      "179xg9jpsjvxbf2h",
-      "qqaosucvcikh83w6",
-      "cwppn0k934skwxjs",
-      "6h0jixmj3wn0e86s",
-      "3qud6bea251dga17",
-      "q42n3nuztaq7lmsx",
-      "9kd1eesvy696eduq",
-      "c08a2onj9k3z9n9s",
-      "g62qql6fd3yl4fgi",
-      "mgggv2xzv3fhmwjq",
-      "85tkhwfp0b3tipap",
-      "vqnn8ezcw4bq13n6",
-      "0s9jind7qzxb60mv",
-      "v89s5kxide2h3rct",
-      "qsv2f3lsec3ylvdq",
-      "b528z2w05o7sr8hd"
-    ],
-    "The Very Best of Supertramp": [
-      "k5isrf2ediotp9e8",
-      "dzdrcdqnpwac3sf4",
-      "jdxn8gxl5n2fwaff",
-      "ypf41cf4wrokcgy0",
-      "03f77o5f1aza2ff2",
-      "9jhgmvke7dv0tkj0",
-      "7yhxev0cz48ld54q",
-      "7kxjn887ugtcij6w",
-      "mrteqzo1pv16ixpf",
-      "65s45eo7c6uxf5p7",
-      "v6a1tyux6nxk9y9g",
-      "uuhpybaxlksi9xy4",
-      "6jax0gs8px2x6zp9",
-      "tbzkfaske253k13p",
-      "i3d2rx1r160hu6wf"
+      "ugw31f6af9fmbhg9",
+      "cxc21dnkto9ve9so",
+      "nwkzdrxoalj2klrb",
+      "gtl1juk1qlwb3pfr",
+      "ordzabjjaa6dr8e3",
+      "t0nlnevfsv70gt2w",
+      "m8piw73n37dw05sj",
+      "jp9xd3w5k4xn1k1t",
+      "7yw74877dwi7khtu",
+      "zlb9yx2eq7dbohq9",
+      "w5gqxngxdcaq6fze",
+      "uv0z3hmbpn2a7vc1",
+      "u2hyiep90n6egets",
+      "hq4k3xygen7df4ls",
+      "au7p9i58qz9xli7r",
+      "01h6xyfouvjtnufe",
+      "m77jh1whmytby6pf",
+      "yz3z181sqgemfqrz"
     ]
   },
   "artists": {
-    "None": [
-      "btg23m2k8yqkn7vr"
-    ],
     "Daryl Hall & John Oates": [
-      "tvk9e88p09jxqrm1",
-      "en16xdymhawhxkeh",
-      "s882wor8z7moe6um",
-      "qxnuwagyc4520dn6",
-      "yliszor4mgllqzqc",
-      "9e79sh9ra3qmnt0e",
-      "nhid159vo5bq7zge",
-      "wcam3wsq4pazwbdq",
-      "6thygk7v5oc6hk5g",
-      "kq58329y5dknlgv8",
-      "nnxnahf89b9pf9k2",
-      "zlmkif3intylinjt",
-      "faoihwdhqsrb0lx2",
-      "h0cqk40laonijil4",
-      "vuf54ab696cbe0xi",
-      "woe3npyeczl04j6n",
-      "dfh9hjrhr89qxx3c",
-      "8fby7w6vzmwdy6e1"
-    ],
-    "Fleetwood Mac": [
-      "9yz20wvua8ds3cfz",
-      "af7qx0rzr0fzecq2",
-      "jbicu63nohwsp63m",
-      "sisq1lea1996c117",
-      "emya2rlitzx7n6xg",
-      "avfcl029tt18ra6q",
-      "9x9c5y04luj1y3n1",
-      "rdcgkn82hscabqz9",
-      "eaxo5nk9kpukjcq7",
-      "iosdclek5djsachb",
-      "ztokfv6ypmw6n75a",
-      "3nt8stvrsak9rmfn",
-      "z1kw4dph5g7k3pk7",
-      "fudrzs48htw70fen",
-      "cq333vrvahwrdtqc",
-      "1i66vo9jhmxmyegu",
-      "q6543l1njvl0bkr9",
-      "lr9w3m30yk1m9kr1",
-      "mcw7w0ow2isbkvia",
-      "z3tju32ktxfec5ch",
-      "mbdlhlnj2of9xwtp"
-    ],
-    "Queen": [
-      "y8e1owgr0r2fgacy",
-      "bfngo2fb1qxfc2i4",
-      "7ct56ialamjkyh5x",
-      "al50drg8jq54y5fq",
-      "ye6fb9t64ij3thrb",
-      "9kmekkxb4nopiaft",
-      "rave9jbirvdatke6",
-      "lb7njhtvptpjm319",
-      "qqebw4yv1luuz64h",
-      "4dfv7dm2ld2fv2x7",
-      "c83yvjkpcqbtne7n",
-      "ktwzadlr3uqhf4zh",
-      "qlr12odxfvz60e0f",
-      "10kpud0qik7n6ikr",
-      "46lpewhawsoe9i99",
-      "v4vi7czmsx7b6dee",
-      "geshoctp5i7itt5t",
-      "8qema4mrz71vm2cj",
-      "1i5omm7n3vc6vscw",
-      "179xg9jpsjvxbf2h",
-      "qqaosucvcikh83w6",
-      "cwppn0k934skwxjs",
-      "6h0jixmj3wn0e86s",
-      "3qud6bea251dga17",
-      "q42n3nuztaq7lmsx",
-      "9kd1eesvy696eduq",
-      "c08a2onj9k3z9n9s",
-      "g62qql6fd3yl4fgi",
-      "mgggv2xzv3fhmwjq",
-      "85tkhwfp0b3tipap",
-      "vqnn8ezcw4bq13n6",
-      "0s9jind7qzxb60mv",
-      "v89s5kxide2h3rct",
-      "qsv2f3lsec3ylvdq",
-      "b528z2w05o7sr8hd"
-    ],
-    "Supertramp": [
-      "k5isrf2ediotp9e8",
-      "dzdrcdqnpwac3sf4",
-      "jdxn8gxl5n2fwaff",
-      "ypf41cf4wrokcgy0",
-      "03f77o5f1aza2ff2",
-      "9jhgmvke7dv0tkj0",
-      "7yhxev0cz48ld54q",
-      "7kxjn887ugtcij6w",
-      "mrteqzo1pv16ixpf",
-      "65s45eo7c6uxf5p7",
-      "v6a1tyux6nxk9y9g",
-      "uuhpybaxlksi9xy4",
-      "6jax0gs8px2x6zp9",
-      "tbzkfaske253k13p",
-      "i3d2rx1r160hu6wf"
+      "ugw31f6af9fmbhg9",
+      "cxc21dnkto9ve9so",
+      "nwkzdrxoalj2klrb",
+      "gtl1juk1qlwb3pfr",
+      "ordzabjjaa6dr8e3",
+      "t0nlnevfsv70gt2w",
+      "m8piw73n37dw05sj",
+      "jp9xd3w5k4xn1k1t",
+      "7yw74877dwi7khtu",
+      "zlb9yx2eq7dbohq9",
+      "w5gqxngxdcaq6fze",
+      "uv0z3hmbpn2a7vc1",
+      "u2hyiep90n6egets",
+      "hq4k3xygen7df4ls",
+      "au7p9i58qz9xli7r",
+      "01h6xyfouvjtnufe",
+      "m77jh1whmytby6pf",
+      "yz3z181sqgemfqrz"
     ]
   },
   "playlists": {},
   "genres": {
     "Pop/Rock": [
-      "tvk9e88p09jxqrm1",
-      "en16xdymhawhxkeh",
-      "s882wor8z7moe6um",
-      "qxnuwagyc4520dn6",
-      "yliszor4mgllqzqc",
-      "9e79sh9ra3qmnt0e",
-      "nhid159vo5bq7zge",
-      "wcam3wsq4pazwbdq",
-      "6thygk7v5oc6hk5g",
-      "kq58329y5dknlgv8",
-      "nnxnahf89b9pf9k2",
-      "zlmkif3intylinjt",
-      "faoihwdhqsrb0lx2",
-      "h0cqk40laonijil4",
-      "vuf54ab696cbe0xi",
-      "woe3npyeczl04j6n",
-      "dfh9hjrhr89qxx3c",
-      "8fby7w6vzmwdy6e1"
-    ],
-    "Rock": [
-      "9yz20wvua8ds3cfz",
-      "af7qx0rzr0fzecq2",
-      "jbicu63nohwsp63m",
-      "sisq1lea1996c117",
-      "emya2rlitzx7n6xg",
-      "avfcl029tt18ra6q",
-      "9x9c5y04luj1y3n1",
-      "rdcgkn82hscabqz9",
-      "eaxo5nk9kpukjcq7",
-      "iosdclek5djsachb",
-      "ztokfv6ypmw6n75a",
-      "3nt8stvrsak9rmfn",
-      "z1kw4dph5g7k3pk7",
-      "fudrzs48htw70fen",
-      "cq333vrvahwrdtqc",
-      "1i66vo9jhmxmyegu",
-      "q6543l1njvl0bkr9",
-      "lr9w3m30yk1m9kr1",
-      "mcw7w0ow2isbkvia",
-      "z3tju32ktxfec5ch",
-      "mbdlhlnj2of9xwtp",
-      "y8e1owgr0r2fgacy",
-      "bfngo2fb1qxfc2i4",
-      "7ct56ialamjkyh5x",
-      "al50drg8jq54y5fq",
-      "ye6fb9t64ij3thrb",
-      "9kmekkxb4nopiaft",
-      "rave9jbirvdatke6",
-      "lb7njhtvptpjm319",
-      "qqebw4yv1luuz64h",
-      "4dfv7dm2ld2fv2x7",
-      "c83yvjkpcqbtne7n",
-      "ktwzadlr3uqhf4zh",
-      "qlr12odxfvz60e0f",
-      "10kpud0qik7n6ikr",
-      "46lpewhawsoe9i99",
-      "v4vi7czmsx7b6dee",
-      "geshoctp5i7itt5t",
-      "8qema4mrz71vm2cj",
-      "1i5omm7n3vc6vscw",
-      "179xg9jpsjvxbf2h",
-      "qqaosucvcikh83w6",
-      "cwppn0k934skwxjs",
-      "6h0jixmj3wn0e86s",
-      "3qud6bea251dga17",
-      "q42n3nuztaq7lmsx",
-      "9kd1eesvy696eduq",
-      "c08a2onj9k3z9n9s",
-      "g62qql6fd3yl4fgi",
-      "mgggv2xzv3fhmwjq",
-      "85tkhwfp0b3tipap",
-      "vqnn8ezcw4bq13n6",
-      "0s9jind7qzxb60mv",
-      "v89s5kxide2h3rct",
-      "qsv2f3lsec3ylvdq",
-      "b528z2w05o7sr8hd",
-      "k5isrf2ediotp9e8",
-      "dzdrcdqnpwac3sf4",
-      "jdxn8gxl5n2fwaff",
-      "ypf41cf4wrokcgy0",
-      "03f77o5f1aza2ff2",
-      "9jhgmvke7dv0tkj0",
-      "7yhxev0cz48ld54q",
-      "7kxjn887ugtcij6w",
-      "mrteqzo1pv16ixpf",
-      "65s45eo7c6uxf5p7",
-      "v6a1tyux6nxk9y9g",
-      "uuhpybaxlksi9xy4",
-      "6jax0gs8px2x6zp9",
-      "tbzkfaske253k13p",
-      "i3d2rx1r160hu6wf"
+      "ugw31f6af9fmbhg9",
+      "cxc21dnkto9ve9so",
+      "nwkzdrxoalj2klrb",
+      "gtl1juk1qlwb3pfr",
+      "ordzabjjaa6dr8e3",
+      "t0nlnevfsv70gt2w",
+      "m8piw73n37dw05sj",
+      "jp9xd3w5k4xn1k1t",
+      "7yw74877dwi7khtu",
+      "zlb9yx2eq7dbohq9",
+      "w5gqxngxdcaq6fze",
+      "uv0z3hmbpn2a7vc1",
+      "u2hyiep90n6egets",
+      "hq4k3xygen7df4ls",
+      "au7p9i58qz9xli7r",
+      "01h6xyfouvjtnufe",
+      "m77jh1whmytby6pf",
+      "yz3z181sqgemfqrz"
     ]
   },
   "all": {
-    "btg23m2k8yqkn7vr": {
-      "title": "Birdland---Maynard-Ferguson",
-      "cover": "",
-      "path": "music\\Birdland---Maynard-Ferguson.mp3",
-      "artist": "None",
-      "album": "None",
-      "genre": []
-    },
-    "tvk9e88p09jxqrm1": {
-      "title": "You Make My Dreams",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\01---You-Make-My-Dreams.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "en16xdymhawhxkeh": {
-      "title": "She's Gone",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\03---She-s-Gone.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "s882wor8z7moe6um": {
+    "ugw31f6af9fmbhg9": {
       "title": "I Can't Go For That (No Can Do)",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\02---I-Can-t-Go-For-That--No-Can-Do-.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\02---I-Can-t-Go-For-That--No-Can-Do-.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "qxnuwagyc4520dn6": {
-      "title": "Sara Smile",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\08---Sara-Smile.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "yliszor4mgllqzqc": {
-      "title": "Method Of Modern Love",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\06---Method-Of-Modern-Love.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "9e79sh9ra3qmnt0e": {
+    "cxc21dnkto9ve9so": {
       "title": "Family Man",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\04---Family-Man.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\04---Family-Man.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "nhid159vo5bq7zge": {
+    "nwkzdrxoalj2klrb": {
+      "title": "She's Gone",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\03---She-s-Gone.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "gtl1juk1qlwb3pfr": {
+      "title": "You Make My Dreams",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\01---You-Make-My-Dreams.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "ordzabjjaa6dr8e3": {
       "title": "Out Of Touch",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\05---Out-Of-Touch.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\05---Out-Of-Touch.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "wcam3wsq4pazwbdq": {
-      "title": "Kiss On My List",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\11---Kiss-On-My-List.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "6thygk7v5oc6hk5g": {
-      "title": "Wait For Me",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\09---Wait-For-Me.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "kq58329y5dknlgv8": {
-      "title": "Maneater",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\12---Maneater.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "nnxnahf89b9pf9k2": {
+    "t0nlnevfsv70gt2w": {
       "title": "Private Eyes",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\07---Private-Eyes.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\07---Private-Eyes.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "zlmkif3intylinjt": {
-      "title": "Everytime You Go Away (Live)",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\16---Everytime-You-Go-Away--Live-.mp3",
+    "m8piw73n37dw05sj": {
+      "title": "Sara Smile",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\08---Sara-Smile.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "faoihwdhqsrb0lx2": {
+    "jp9xd3w5k4xn1k1t": {
+      "title": "Wait For Me",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\09---Wait-For-Me.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "7yw74877dwi7khtu": {
       "title": "You've Lost That Lovin Feeling",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\10---You-ve-Lost-That-Lovin-Feeling.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\10---You-ve-Lost-That-Lovin-Feeling.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "h0cqk40laonijil4": {
+    "zlb9yx2eq7dbohq9": {
+      "title": "Maneater",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\12---Maneater.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "w5gqxngxdcaq6fze": {
+      "title": "Method Of Modern Love",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\06---Method-Of-Modern-Love.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "uv0z3hmbpn2a7vc1": {
+      "title": "Kiss On My List",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\11---Kiss-On-My-List.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "u2hyiep90n6egets": {
       "title": "One On One",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\13---One-On-One.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\13---One-On-One.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "vuf54ab696cbe0xi": {
+    "hq4k3xygen7df4ls": {
       "title": "Say It Isn't So",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\14---Say-It-Isn-t-So.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\14---Say-It-Isn-t-So.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "woe3npyeczl04j6n": {
-      "title": "Rich Girl",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\18---Rich-Girl.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "dfh9hjrhr89qxx3c": {
-      "title": "Everything Your Heart Desires (Video Mix)",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\17---Everything-Your-Heart-Desires--Video-Mix-.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "8fby7w6vzmwdy6e1": {
+    "au7p9i58qz9xli7r": {
       "title": "Adult Education",
-      "cover": "covers\\Timeless-Classics.jpg",
-      "path": "music\\hall_and_oates\\15---Adult-Education.mp3",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\15---Adult-Education.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "9yz20wvua8ds3cfz": {
-      "title": "Go Your Own Way",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\01-Go-Your-Own-Way.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
+    "01h6xyfouvjtnufe": {
+      "title": "Everytime You Go Away (Live)",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\16---Everytime-You-Go-Away--Live-.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
       "genre": [
-        "Rock"
+        "Pop/Rock"
       ]
     },
-    "af7qx0rzr0fzecq2": {
-      "title": "Little Lies",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\04-Little-Lies.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
+    "m77jh1whmytby6pf": {
+      "title": "Rich Girl",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\18---Rich-Girl.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
       "genre": [
-        "Rock"
+        "Pop/Rock"
       ]
     },
-    "jbicu63nohwsp63m": {
-      "title": "Dreams",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\03-Dreams.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
+    "yz3z181sqgemfqrz": {
+      "title": "Everything Your Heart Desires (Video Mix)",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\music\\hall_and_oates\\17---Everything-Your-Heart-Desires--Video-Mix-.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
       "genre": [
-        "Rock"
-      ]
-    },
-    "sisq1lea1996c117": {
-      "title": "Don't Stop",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\02-Don-t-Stop.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "emya2rlitzx7n6xg": {
-      "title": "You Make Loving Fun",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\07-You-Make-Loving-Fun.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "avfcl029tt18ra6q": {
-      "title": "Black Magic Woman",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\09-Black-Magic-Woman.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "9x9c5y04luj1y3n1": {
-      "title": "Everywhere",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\05-Everywhere.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "rdcgkn82hscabqz9": {
-      "title": "Rhiannon [Single Version]",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\08-Rhiannon--Single-Version-.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "eaxo5nk9kpukjcq7": {
-      "title": "Tusk",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\10-Tusk.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "iosdclek5djsachb": {
-      "title": "Family Man",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\14-Family-Man.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "ztokfv6ypmw6n75a": {
-      "title": "Say You Love Me",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\11-Say-You-Love-Me.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "3nt8stvrsak9rmfn": {
-      "title": "Gypsy",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\17-Gypsy.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "z1kw4dph5g7k3pk7": {
-      "title": "Sara",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\15-Sara.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "fudrzs48htw70fen": {
-      "title": "Seven Wonders",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\13-Seven-Wonders.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "cq333vrvahwrdtqc": {
-      "title": "Monday Morning",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\16-Monday-Morning.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "1i66vo9jhmxmyegu": {
-      "title": "Over My Head [Single Version]",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\18-Over-My-Head--Single-Version-.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "q6543l1njvl0bkr9": {
-      "title": "Big Love [Live, 1997]",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\21-Big-Love--Live--1997-.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "lr9w3m30yk1m9kr1": {
-      "title": "The Chain",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\20-The-Chain.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "mcw7w0ow2isbkvia": {
-      "title": "Landslide",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\19-Landslide.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "z3tju32ktxfec5ch": {
-      "title": "Albatross",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\06-Albatross.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "mbdlhlnj2of9xwtp": {
-      "title": "Man of the World",
-      "cover": "",
-      "path": "music\\fleetwood_mac\\12-Man-of-the-World.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "y8e1owgr0r2fgacy": {
-      "title": "Made In Heaven",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\01.-Made-In-Heaven.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "bfngo2fb1qxfc2i4": {
-      "title": "A Kind Of Magic",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\02.-A-Kind-Of-Magic.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "7ct56ialamjkyh5x": {
-      "title": "Too Much Love Will Kill You",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\03.-Too-Much-Love-Will-Kill-You.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "al50drg8jq54y5fq": {
-      "title": "Bohemian Rhapsody",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\04.-Bohemian-Rhapsody.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "ye6fb9t64ij3thrb": {
-      "title": "Radio Ga Ga",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\08.-Radio-Ga-Ga.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "9kmekkxb4nopiaft": {
-      "title": "Another One Bites The Dust",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\05.-Another-One-Bites-The-Dust.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "rave9jbirvdatke6": {
-      "title": "Killer Queen",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\07.-Killer-Queen.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "lb7njhtvptpjm319": {
-      "title": "Under Pressure",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\06.-Under-Pressure.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "qqebw4yv1luuz64h": {
-      "title": "Fat Bottomed Girls",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\09.-Fat-Bottomed-Girls.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "4dfv7dm2ld2fv2x7": {
-      "title": "You're My Best Friend",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\14.-You-re-My-Best-Friend.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "c83yvjkpcqbtne7n": {
-      "title": "Bicycle Race",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\11.-Bicycle-Race.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "ktwzadlr3uqhf4zh": {
-      "title": "I Want To Break Free",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\12.-I-Want-To-Break-Free.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "qlr12odxfvz60e0f": {
-      "title": "I Want It All",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\10.-I-Want-It-All.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "10kpud0qik7n6ikr": {
-      "title": "Don't Stop Me Now",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\15.-Don-t-Stop-Me-Now.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "46lpewhawsoe9i99": {
-      "title": "Breakthru",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\17.-Breakthru.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "v4vi7czmsx7b6dee": {
-      "title": "It's A Hard Life",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\16.-It-s-A-Hard-Life.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "geshoctp5i7itt5t": {
-      "title": "Innuendo",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\13.-Innuendo.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "8qema4mrz71vm2cj": {
-      "title": "Save Me",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\18.-Save-Me.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "1i5omm7n3vc6vscw": {
-      "title": "Who Wants To Live Forever",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\21.-Who-Wants-To-Live-Forever.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "179xg9jpsjvxbf2h": {
-      "title": "We Will Rock You",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\19.-We-Will-Rock-You.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "qqaosucvcikh83w6": {
-      "title": "Crazy Little Thing Called Love",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\20.-Crazy-Little-Thing-Called-Love.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "cwppn0k934skwxjs": {
-      "title": "Headlong",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\22.-Headlong.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "6h0jixmj3wn0e86s": {
-      "title": "Now I'm Here",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\24.-Now-I-m-Here.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "3qud6bea251dga17": {
-      "title": "Good Old Fashioned Lover Boy",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\26.-Good-Old-Fashioned-Lover-Boy.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "q42n3nuztaq7lmsx": {
-      "title": "Somebody To Love",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\23.-Somebody-To-Love.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "9kd1eesvy696eduq": {
-      "title": "The Invisible Man",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\29.-The-Invisible-Man.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "c08a2onj9k3z9n9s": {
-      "title": "The Miracle",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\25.-The-Miracle.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "g62qql6fd3yl4fgi": {
-      "title": "I'm Going Slightly Mad",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\27.-I-m-Going-Slightly-Mad.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "mgggv2xzv3fhmwjq": {
-      "title": "Hammer To Fall",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\31.-Hammer-To-Fall.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "85tkhwfp0b3tipap": {
-      "title": "Seven Seas Of Rhye",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\33.-Seven-Seas-Of-Rhye.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "vqnn8ezcw4bq13n6": {
-      "title": "Friends Will Be Friends",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\32.-Friends-Will-Be-Friends.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "0s9jind7qzxb60mv": {
-      "title": "Play The Game",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\28.-Play-The-Game.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "v89s5kxide2h3rct": {
-      "title": "The Show Must Go On",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\35.-The-Show-Must-Go-On.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "qsv2f3lsec3ylvdq": {
-      "title": "Flash",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\30.-Flash.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "b528z2w05o7sr8hd": {
-      "title": "One Vision",
-      "cover": "covers\\The-Ultimate-Best-Of-Queen.jpg",
-      "path": "music\\queen\\34.-One-Vision.mp3",
-      "artist": "Queen",
-      "album": "The Ultimate Best Of Queen",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "k5isrf2ediotp9e8": {
-      "title": "School",
-      "cover": "",
-      "path": "music\\supertramp\\01-School.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "dzdrcdqnpwac3sf4": {
-      "title": "Bloody Well Right",
-      "cover": "",
-      "path": "music\\supertramp\\04-Bloody-Well-Right.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "jdxn8gxl5n2fwaff": {
-      "title": "The Logical Song",
-      "cover": "",
-      "path": "music\\supertramp\\03-The-Logical-Song.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "ypf41cf4wrokcgy0": {
-      "title": "Goodbye Stranger",
-      "cover": "",
-      "path": "music\\supertramp\\02-Goodbye-Stranger.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "03f77o5f1aza2ff2": {
-      "title": "Crime of the Century",
-      "cover": "",
-      "path": "music\\supertramp\\08-Crime-of-the-Century.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "9jhgmvke7dv0tkj0": {
-      "title": "Take the Long Way Home",
-      "cover": "",
-      "path": "music\\supertramp\\07-Take-the-Long-Way-Home.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "7yhxev0cz48ld54q": {
-      "title": "Breakfast in America",
-      "cover": "",
-      "path": "music\\supertramp\\05-Breakfast-in-America.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "7kxjn887ugtcij6w": {
-      "title": "Rudy",
-      "cover": "",
-      "path": "music\\supertramp\\06-Rudy.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "mrteqzo1pv16ixpf": {
-      "title": "Dreamer",
-      "cover": "",
-      "path": "music\\supertramp\\09-Dreamer.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "65s45eo7c6uxf5p7": {
-      "title": "From Now On",
-      "cover": "",
-      "path": "music\\supertramp\\12-From-Now-On.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "v6a1tyux6nxk9y9g": {
-      "title": "Hide in Your Shell",
-      "cover": "",
-      "path": "music\\supertramp\\11-Hide-in-Your-Shell.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "uuhpybaxlksi9xy4": {
-      "title": "It's Raining Again",
-      "cover": "",
-      "path": "music\\supertramp\\14-It-s-Raining-Again.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "6jax0gs8px2x6zp9": {
-      "title": "Ain't Nobody But Me",
-      "cover": "",
-      "path": "music\\supertramp\\10-Ain-t-Nobody-But-Me.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "tbzkfaske253k13p": {
-      "title": "Give a Little Bit",
-      "cover": "",
-      "path": "music\\supertramp\\13-Give-a-Little-Bit.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "i3d2rx1r160hu6wf": {
-      "title": "Cannonball",
-      "cover": "",
-      "path": "music\\supertramp\\15-Cannonball.mp3",
-      "artist": "Supertramp",
-      "album": "The Very Best of Supertramp",
-      "genre": [
-        "Rock"
+        "Pop/Rock"
       ]
     }
   }
