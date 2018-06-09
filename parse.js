@@ -88,7 +88,7 @@ let walk = (dir, done) => {
                                 }
 
                                 let musicPath = path.relative(process.cwd(), dir + "/" + newname);
-                                musicPath = musicPath.split('client\\public')[1];
+                                musicPath = musicPath.split('client\\public\\music')[1];
                                 entry.path = musicPath; //path.relative(process.cwd(), dir + "/" + newname);
                                     
                                 entry.artist = (tags.artist === undefined) ? 

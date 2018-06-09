@@ -154,6 +154,10 @@
     padding:0;
 }
 
+.seek-outer:hover .seek-bar, .seek-outer:hover .seek-bar-inner {
+    height:10px;
+}
+
 .current-time, .song-time {
     height:20px;
     line-height:20px;
@@ -182,10 +186,6 @@
     margin:0;
     padding:0;
     transition:all 0.05s linear;
-}
-
-.seek-bar-grow {
-    height:10px;
 }
 
 .seek-hover {

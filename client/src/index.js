@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import MusicPlayer from './MusicPlayer';
+import MainContainer from './MainContainer';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<MusicPlayer />, document.getElementById('root'));
+ReactDOM.render(<MainContainer />, document.getElementById('root'));
 registerServiceWorker();

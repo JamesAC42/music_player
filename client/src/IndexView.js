@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import MusicItem, {MusicItemKey} from './MusicItem.js';
 import './css/IndexView.css';
 
 class IndexBackground extends Component {
@@ -104,137 +105,15 @@ class IndexPanel extends Component {
   }
 }
 
-class MusicItemKey extends Component {
-  render() {
-    return (
-      <div className="music-item-key">
-        <div className="music-item-info info-padding"></div>
-        <div className="music-item-info music-item-title">
-            Title
-        </div>
-        <div className="music-item-info info-padding"></div>
-        <div className="music-item-info music-item-artist">
-            Artist
-        </div>
-        <div className="music-item-info info-padding"></div>                        
-        <div className="music-item-info music-item-album">
-            Album
-        </div>
-      </div>
-    )
-  }
-}
-
-class MusicItem extends Component {
-
-  constructor(props) {
-    super(props);
-    this.removeItem = this.removeItem.bind(this);
-    this.playItem = this.playItem.bind(this);
-    this.playItemNext = this.playItemNext.bind(this);
-    this.addItemToQueue = this.addItemToQueue.bind(this);
-    this.addItemToPlaylist = this.addItemToPlaylist.bind(this);
-    this.state = {
-      optionsVisible: false,
-      removeItemVisible: false
-    }
-    this.showOptions = this.showOptions.bind(this);
-    this.hideOptions = this.hideOptions.bind(this);
-  }
-
-  showOptions() {
-    this.setState({optionsVisible:true});
-  }
-
-  hideOptions() {
-    this.setState({optionsVisible:false})
-  }
-
-  removeItem() {
-
-  }
-
-  playItem() {
-    return;
-  }
-
-  playItemNext() {
-    return;
-  }
-
-  addItemToQueue() {
-    return;
-  }
-
-  addItemToPlaylist() {
-    return;
-  }
-
-  render() {
-    let isPlaylist = this.props.activeCatgory === "playlists";
-    let musicItemClass = "music-item";
-    if(this.props.number === this.props.activeSong) {
-      musicItemClass += " music-item-active"
-    }
-    let optionsContainerClass = "options-container";
-    if(this.state.optionsVisible) optionsContainerClass += 
-      " options-container-visible";
-    return (
-      <div 
-        className={musicItemClass} 
-        name={this.props.id} 
-        onClick={this.playItem} >
-
-        {
-          (isPlaylist || this.props.queue ) &&
-            <div 
-              className="music-item-delete"
-              onClick={this.removeItem}>
-              <img 
-                src={window.location.origin + "/icons/icons8-cancel-50.png"}
-                alt="" />
-            </div>
-        }
-
-        <div className="music-item-info info-padding"></div>
-        <div className="music-item-info music-item-title">
-          {this.props.item.title}
-        </div>
-        <div className="music-item-info info-padding"></div>
-        <div className="music-item-info music-item-artist">
-          {this.props.item.artist}
-        </div>
-        <div className="music-item-info info-padding"></div>
-        <div className="music-item-info music-item-album">
-          {this.props.item.album}
-        </div>
-        <div 
-          className="music-item-options"
-          onMouseEnter={this.showOptions}
-          onMouseLeave={this.hideOptions}>
-          <div className={optionsContainerClass}>
-            <div className="options-container-inner">
-              <div className="tail"></div>
-              <div className="options-list options-list-index">
-                <div className="add-to-playlist">Add to Playlist</div>
-                <div className="add-to-queue">Add to Queue</div>
-                <div className="play-next">Play Next</div>
-              </div>
-            </div>
-          </div> 
-          <img 
-            src={window.location.origin + "/icons/icons8-more-filled-50.png"} 
-            alt=""/>
-        </div>
-      </div>
-    )
-  }
-}
-
 class IndexList extends Component {
 
   constructor(props) {
     super(props);
+    this.playItem = this.playItem.bind(this);
+  }
+
+  playItem(number) {
+    this.props.playItem(number);
   }
 
   render() {
@@ -244,11 +123,13 @@ class IndexList extends Component {
           this.props.list.map((item, index) =>
             <MusicItem
               key={index}
+              id={item}
               number={index}
               queue={this.props.queue}
               activeSong={this.props.activeSong}
               activeCategory={this.props.activeCategory}
-              item={item} />
+              item={this.props.data.all[item]} 
+              playItem={this.playItem} />
           )
         }
       </div>
@@ -260,6 +141,11 @@ class Index extends Component {
 
   constructor(props) {
     super(props);
+    this.playItem = this.playItem.bind(this);
+  }
+
+  playItem(number) {
+    this.props.playItem(number);
   }
 
   render() {
@@ -289,7 +175,8 @@ class Index extends Component {
               list={this.props.list}
               queue={this.props.queue}
               data={this.props.data} 
-              activeSong={this.props.activeSong} />
+              activeSong={this.props.activeSong} 
+              playItem={this.playItem} />
           </div>
         </div>
       </div>
@@ -297,25 +184,27 @@ class Index extends Component {
   }
 }
 
-class IndexView extends Component {
+export default class IndexView extends Component {
 
   constructor(props) {
     super(props);
+    this.playItem = this.playItem.bind(this);
+    this.skipTo = this.skipTo.bind(this);
+  }
+
+  playItem(number) {
+    this.props.playItem(number);
+  }
+
+  skipTo(number) {
+    this.props.skipTo(number);
   }
 
   render() {
     let cat = this.props.activeCategory ? this.props.activeCategory : "";
     let index = this.props.activeIndex ? this.props.activeIndex : "";
     let itemList = [];
-    if(cat && index) {
-      let keyList = this.props.data[cat][index];
-      itemList = keyList.map(item => {
-        return this.props.data["all"][item]
-      })
-    }
-    let queueItemList = this.props.queue.map(item => {
-      return this.props.data["all"][item];
-    });
+    if(cat && index) itemList = this.props.data[cat][index];
     return (
       <div className="view-outer">
         <IndexBackground />
@@ -325,17 +214,17 @@ class IndexView extends Component {
           title={index}
           list={itemList}
           activeSong={this.props.activeSong}
-          data={this.props.data}/>
+          data={this.props.data}
+          playItem={this.playItem}/>
         <Index
           queue={true}
           queueVisible={this.props.queueVisible}
           title="Play Queue"
-          list={queueItemList}
+          list={this.props.queue}
           activeSong={this.props.activeSong}
-          data={this.props.data}/>
+          data={this.props.data}
+          playItem={this.skipTo}/>
       </div>
     )
   }
 }
-
-export default IndexView;

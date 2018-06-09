@@ -8,10 +8,6 @@ import SuccessMessage from 'SuccessMessage.js';
 import PlaylistSelect from 'PlaylistSelect.js';
 */
 
-const shuffle = (list) => {
-    return;
-}
-
 const decode = (name) => {
     let text = document.createElement("textarea");
     text.innerHTML = name;
@@ -23,59 +19,23 @@ class MusicPlayer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: {
-                songs:{},
-                albums:{},
-                artists:{},
-                playlists:{},
-                genres:{},
-                all:{}    
-            },
             activeCategory: null,
             activeIndex: null,
-            activeSong: null,
-            queueVisible: false,
-            queue: [],
-            nowPlaying:{
-                item: {
-                    title: "",
-                    cover: "",
-                    path: "",
-                    artist: "",
-                    album: "",
-                    genre: []
-                },
-                length: null,
-                currentTime: null
-            },
-            loop:false,
-            shuffle:false,
-            volume: 1
+            queueVisible: false
         };
         this.onActiveCategoryChange = this.onActiveCategoryChange.bind(this);
         this.onActiveIndexChange = this.onActiveIndexChange.bind(this);
+        this.playItem = this.playItem.bind(this);
+        this.skipTo = this.skipTo.bind(this);
+        this.togglePlay = this.togglePlay.bind(this);
+        this.previousSong = this.previousSong.bind(this);
+        this.nextSong = this.nextSong.bind(this);
+        this.seekTo = this.seekTo.bind(this);
+        this.toggleQueue = this.toggleQueue.bind(this);
+        this.toggleShuffle = this.toggleShuffle.bind(this);
+        this.toggleLoop = this.toggleLoop.bind(this);
+        this.changeVolume = this.changeVolume.bind(this);
     }
-
-    componentDidMount() {
-        this.getMusicLibrary()
-        .then(res => {
-            let dataTemp = this.state.data;
-            for(let key in res) {
-                dataTemp[key] = res[key]
-            }
-            this.setState({data: dataTemp});
-        })
-        .catch(err =>  {
-            console.log(err)
-        });
-    }
-
-    getMusicLibrary = async () => {
-        const response = await fetch('/getSongs');
-        const body = await response.json();
-        if (response.status !== 200) throw Error(body.message);
-        return body;
-    };
 
     onActiveCategoryChange(category) {
         this.setState({activeCategory:decode(category)});
@@ -85,8 +45,21 @@ class MusicPlayer extends Component {
         this.setState({activeIndex:decode(index)});
     }
 
-    playIndex(category, index, number) {
+    playItem(number) {
+        let cat = this.state.activeCategory;
+        let index = this.state.activeIndex;
+        this.props.playItem(cat, index, number);
+    }
 
+    skipTo(number) {
+        this.props.skipTo(number);
+    }
+
+    playIndex() {
+        if(this.props.playing === null) return;
+        let cat = this.state.activeCategory;
+        let index = this.state.activeIndex;
+        this.props.playItem(cat, index);
     }
 
     addToQueue(songs) {
@@ -101,35 +74,41 @@ class MusicPlayer extends Component {
 
     }
 
-    skipTo(number) {
-
-    }
-
     nextSong() {
-
+        this.props.nextSong();
     }
 
     previousSong() {
-
+        this.props.previousSong();
     }
 
-    pause() {
-
-    }
-
-    play() {
-
+    togglePlay() {
+        this.props.togglePlay();
     }
 
     seekTo(time) {
-
+        this.props.seekTo(time);
     }
 
     toggleShuffle() {
-
+        this.props.toggleShuffle();
     }
 
     toggleLoop() {
+        this.props.toggleLoop();
+    }
+
+    toggleQueue(state) {
+        let q;
+        if(state !== undefined) {
+            q = state
+        } else {
+            q = !this.state.queueVisible;
+        }
+        this.setState({queueVisible:q});
+    }
+
+    changeVolume(volume) {
 
     }
 
@@ -137,27 +116,33 @@ class MusicPlayer extends Component {
         return (
             <div>
                 <Sidebar
-                    data={this.state.data}
+                    data={this.props.data}
                     onActiveCategoryChange={this.onActiveCategoryChange}
-                    onActiveIndexChange={this.onActiveIndexChange}/>
+                    onActiveIndexChange={this.onActiveIndexChange}
+                    toggleQueue={this.toggleQueue}/>
                 <IndexView
-                    data={this.state.data}
-                    queue={this.state.queue}
+                    data={this.props.data}
+                    queue={this.props.queue}
                     activeCategory={this.state.activeCategory}
                     activeIndex={this.state.activeIndex}
-                    activeSong={this.state.activeSong}
+                    activeSong={this.props.activeSong}
                     queueVisible={this.state.queueVisible}
-                    playIndex={this.playIndex}
-                    playSong/>
+                    playItem={this.playItem}
+                    skipTo={this.skipTo}/>
                 <NowPlaying
-                    nowPlaying={this.state.nowPlaying}
+                    queue={this.state.queueVisible}
+                    shuffle={this.props.shuffle}
+                    loop={this.props.loop}
+                    playing={this.props.playing}
+                    nowPlaying={this.props.nowPlaying}
                     togglePlay={this.togglePlay}
                     previousSong={this.previousSong}
                     nextSong={this.nextSong}
                     seekTo={this.seekTo}
                     toggleShuffle={this.toggleShuffle}
                     toggleQueue={this.toggleQueue}
-                    toggleLoop={this.toggleLoop}/>
+                    toggleLoop={this.toggleLoop}
+                    changeVolume={this.changeVolume}/>
             </div>
         );
     }

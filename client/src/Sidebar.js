@@ -9,7 +9,7 @@ class SidebarIcon extends Component {
     }
 
     handleClick(e) {
-        let name = e.target.name;
+        let name = e.currentTarget.getAttribute("name");
         this.props.onChangeVisibleCat(name);
     }
 
@@ -18,13 +18,13 @@ class SidebarIcon extends Component {
         return (
             <div 
                 className={"sidebar-icon" + classActive}
-                title={this.props.title}>
+                title={this.props.title}
+                name={this.props.name}
+                onClick={this.handleClick}>
 
                 <img 
                     src={window.location.origin + this.props.src}
-                    name={this.props.name}
-                    alt="icon" 
-                    onClick={this.handleClick}/>
+                    alt="icon" />
 
             </div>
         )
@@ -179,7 +179,7 @@ class SidebarContent extends Component {
     }
 }
 
-class Sidebar extends Component {
+export default class Sidebar extends Component {
 
     constructor(props) {
         super(props);
@@ -193,6 +193,7 @@ class Sidebar extends Component {
     onActiveIndexChange(index) {
         this.props.onActiveCategoryChange(this.state.visible);
         this.props.onActiveIndexChange(index);
+        this.props.toggleQueue(false);
     }
 
     onChangeVisibleCat(name) {
@@ -214,5 +215,3 @@ class Sidebar extends Component {
         );
     }
 }
-
-export default Sidebar;
