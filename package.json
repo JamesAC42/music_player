@@ -1,5 +1,5 @@
 {
-  "name": "example-create-react-app-express",
+  "name": "music_player",
   "version": "1.0.0",
   "scripts": {
     "client": "cd client && npm start",
