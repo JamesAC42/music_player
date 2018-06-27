@@ -1,11 +1,11 @@
 .sidebar {
-    position:relative;
-    float:left;
+    position:absolute;
+    top:0;
+    left:0;
     height:90vh;
     width:20vw;
     margin:0;
     padding:0;
-    background:linear-gradient(rgb(43, 50, 109),rgb(15, 20, 46));
     -webkit-box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
     box-shadow: 10px 0px 60px -10px rgba(0,0,0,0.75);
@@ -17,9 +17,8 @@
     float:left;
     height:90vh;
     width:5vw;
-    background:#62c1da;
     background:rgb(29, 31, 61);
-    background:linear-gradient(rgb(29, 31, 61), rgb(14, 8, 32))
+    background:linear-gradient(rgba(29, 31, 61), rgb(14, 8, 32))
 }
 
 .sidebar-icons-outer {
@@ -98,6 +97,7 @@
 .sidebar-icon img {
     margin:0;
     padding:0;
+    width:25px;
 }
 
 .sidebar-content-outer {
@@ -106,6 +106,32 @@
     height:90vh;
     width:15vw;
     overflow:hidden;
+}
+
+.sidebar-background {
+    position:absolute;
+    height:90vh;
+    width:15vw;
+    margin:0;
+    padding:0;
+    filter:blur(20px) brightness(65%);
+}
+
+.sidebar-background-inner {
+    position:relative;
+    margin:0;
+    padding:0;
+    height:90vh;
+    width:15vw;
+}
+
+.sidebar-background img {
+    position:absolute;
+    top:0;
+    left:0;
+    transform:translate(-4vw);
+    height:100vh;
+    width:100vw;
 }
 
 .sidebar-content {
@@ -117,6 +143,8 @@
     top:-90vh;
     left:0;
     overflow:hidden;
+    background:linear-gradient(rgb(43, 50, 109, 0.2),rgb(15, 20, 46, 0.2));
+    background:rgba(159, 154, 216, 0.158);
 }
 
 .sidebar-content-active {
@@ -133,6 +161,8 @@
     -webkit-box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 74px -17px rgba(0,0,0,0.75);
+    
+    background:linear-gradient(rgb(43, 50, 109),rgb(27, 38, 92));
 }
 
 .sidebar-header span {
@@ -168,7 +198,6 @@
 }
 
 .new-playlist-form {
-    display:none;
     position:relative;
     float:left;
     height:10vh;

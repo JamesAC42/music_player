@@ -1,507 +1,116 @@
 {
   "songs": {
-    "music": [
-      "0iabdhcre0ztlua3",
-      "e6tdvcr3bk6uufwt",
-      "1d0duitar3ozdmvi",
-      "hg15yftswol2tgye",
-      "wgbv9zlj9x58su2z",
-      "4245y7te15v2ql12",
-      "nups2r1bf4b5zkep",
-      "e1fbtm47ushjhcns",
-      "3584xphw6n5czqse",
-      "7hwytla64cl9d5bp",
-      "lq7sqy1dhn7hi7h1",
-      "sc59eb0manjq8pmo",
-      "hu3vdt0yr0rglr4q",
-      "kuqnlzws4oxuuwon",
-      "6ixjbxl60j9rsul3",
-      "eurokiakmml2g2t7",
-      "cbl1midy2v5m997i",
-      "qfc7eedy8crd0f7a",
-      "3i8hwg8sjndby33p",
-      "5wdddlq0cjgg1y57",
-      "ralgml2qeg6ccyj4",
-      "bb8y6i3saod9mvff"
-    ],
     "hall_and_oates": [
-      "jsl59m0u30ibe685",
-      "e9wvrrlmo9prgk9m",
-      "mpekun8e1yvtqc5v",
-      "oo1j0umm4fnx3a7w",
-      "572f7armrt6sf2sn",
-      "gzee9s1c9mgxbg2d",
-      "7puk0v3cs6lswabm",
-      "qw04zq66n405x9qw",
-      "l2omg8rzjqjkc74n",
-      "1ikjymwypwx18rwq",
-      "7apmo82427l2lmi8",
-      "etvra73bvvb3j7tb",
-      "s8bex1ipdob346zk",
-      "kgrlyjfvmsm4awo7",
-      "rdaq3mf81i0lz74a",
-      "jwgxje5m79fe2nwg",
-      "bf96h2n6gmvknf73",
-      "dfz9s1uhv9zuhm5a"
-    ],
-    "abba": [
-      "musv1glmqhdoe3i1",
-      "felztyf4479lnh50",
-      "8jldcu4ncl6s3dpa",
-      "s5e90rmio6q6td37",
-      "hsbtak3j34byfa3v"
-    ],
-    "fleetwoodMac": [
-      "yt0o8tzc6b6qlk43",
-      "6cnkt9kp9g5gnn2g",
-      "g5fkx1y07jzpdal1",
-      "jdvx619u44hdhszh",
-      "yvljmhr4c68h9trd",
-      "ub0pgtqvsauyr5o7",
-      "28skh5mauwvol3tg",
-      "dp21stv0g9zapibk"
+      "mgty1o0c78u6jwjl",
+      "uo6pvlcf53tsly9b",
+      "fjhmoe2g9h1fqi40",
+      "ucmkwz97ktqlwycz",
+      "t0b2phmw08fio38i",
+      "1u9g3a5v6xevbsq2",
+      "tantuk3zre8kzpip",
+      "s0hf9dnq6hua8oqh",
+      "8guz4t3o3x3j0bye",
+      "8heohnpinsvu16c0",
+      "jalmczfodwz773p7",
+      "pfe28bioud1gmri5",
+      "gtq4ko697sfzebbc",
+      "mrn3pun5mfq3xhsb",
+      "fdozlzieqscxm9wa",
+      "w8q1n54875sdtv2x",
+      "s6u7wveh5wcrkojf",
+      "3qfv9gluhhkzyma2"
     ]
   },
   "albums": {
-    "Brotherhood - Single": [
-      "0iabdhcre0ztlua3"
-    ],
-    "The Orange Box(O.S.T)": [
-      "e6tdvcr3bk6uufwt"
-    ],
-    "A Beating Heart Is a Bleeding Heart": [
-      "1d0duitar3ozdmvi"
-    ],
-    "I Just Wanna Run": [
-      "hg15yftswol2tgye"
-    ],
-    "金色钢琴": [
-      "wgbv9zlj9x58su2z"
-    ],
-    "Paradise": [
-      "4245y7te15v2ql12"
-    ],
-    "Complete collection 1998-1999": [
-      "nups2r1bf4b5zkep"
-    ],
-    "Despacito (Remix)": [
-      "e1fbtm47ushjhcns"
-    ],
-    "ソードアート・オンライン ソングコレクション": [
-      "3584xphw6n5czqse"
-    ],
-    "Krut hymneth Complete BOX": [
-      "7hwytla64cl9d5bp"
-    ],
-    "Es rappelt im Karton": [
-      "lq7sqy1dhn7hi7h1"
-    ],
-    "Monster Single (DotEXE Remix)": [
-      "sc59eb0manjq8pmo"
-    ],
-    "Melodic Battle": [
-      "hu3vdt0yr0rglr4q"
-    ],
-    " Paralyse": [
-      "kuqnlzws4oxuuwon"
-    ],
-    "君の名は。": [
-      "6ixjbxl60j9rsul3",
-      "eurokiakmml2g2t7",
-      "5wdddlq0cjgg1y57"
-    ],
-    "AIR Original SoundTrack": [
-      "cbl1midy2v5m997i"
-    ],
-    "Animals": [
-      "qfc7eedy8crd0f7a"
-    ],
-    "Maps": [
-      "3i8hwg8sjndby33p"
-    ],
-    "The Cover Games, Volume 1": [
-      "ralgml2qeg6ccyj4"
-    ],
     "Timeless Classics": [
-      "jsl59m0u30ibe685",
-      "e9wvrrlmo9prgk9m",
-      "mpekun8e1yvtqc5v",
-      "oo1j0umm4fnx3a7w",
-      "572f7armrt6sf2sn",
-      "gzee9s1c9mgxbg2d",
-      "7puk0v3cs6lswabm",
-      "qw04zq66n405x9qw",
-      "l2omg8rzjqjkc74n",
-      "1ikjymwypwx18rwq",
-      "7apmo82427l2lmi8",
-      "etvra73bvvb3j7tb",
-      "s8bex1ipdob346zk",
-      "kgrlyjfvmsm4awo7",
-      "rdaq3mf81i0lz74a",
-      "jwgxje5m79fe2nwg",
-      "bf96h2n6gmvknf73",
-      "dfz9s1uhv9zuhm5a"
-    ],
-    "Go Time": [
-      "bb8y6i3saod9mvff"
-    ],
-    "Abba Gold Anniversary Edition": [
-      "musv1glmqhdoe3i1"
-    ],
-    "ABBA Gold": [
-      "felztyf4479lnh50",
-      "s5e90rmio6q6td37"
-    ],
-    "The Essential Collection": [
-      "8jldcu4ncl6s3dpa",
-      "hsbtak3j34byfa3v"
-    ],
-    "The Very Best Of Fleetwood Mac": [
-      "yt0o8tzc6b6qlk43",
-      "6cnkt9kp9g5gnn2g",
-      "g5fkx1y07jzpdal1",
-      "jdvx619u44hdhszh",
-      "yvljmhr4c68h9trd",
-      "ub0pgtqvsauyr5o7",
-      "28skh5mauwvol3tg",
-      "dp21stv0g9zapibk"
+      "mgty1o0c78u6jwjl",
+      "uo6pvlcf53tsly9b",
+      "fjhmoe2g9h1fqi40",
+      "ucmkwz97ktqlwycz",
+      "t0b2phmw08fio38i",
+      "1u9g3a5v6xevbsq2",
+      "tantuk3zre8kzpip",
+      "s0hf9dnq6hua8oqh",
+      "8guz4t3o3x3j0bye",
+      "8heohnpinsvu16c0",
+      "jalmczfodwz773p7",
+      "pfe28bioud1gmri5",
+      "gtq4ko697sfzebbc",
+      "mrn3pun5mfq3xhsb",
+      "fdozlzieqscxm9wa",
+      "w8q1n54875sdtv2x",
+      "s6u7wveh5wcrkojf",
+      "3qfv9gluhhkzyma2"
     ]
   },
   "artists": {
-    "John Dreamer": [
-      "0iabdhcre0ztlua3"
-    ],
-    "None": [
-      "e6tdvcr3bk6uufwt",
-      "e1fbtm47ushjhcns"
-    ],
-    "Kingsfoil": [
-      "1d0duitar3ozdmvi"
-    ],
-    "Kait Weston": [
-      "hg15yftswol2tgye"
-    ],
-    "K. Williams": [
-      "wgbv9zlj9x58su2z"
-    ],
-    "Jasper Forks": [
-      "4245y7te15v2ql12"
-    ],
-    "KOKIA": [
-      "nups2r1bf4b5zkep",
-      "7hwytla64cl9d5bp"
-    ],
-    "LiSA": [
-      "3584xphw6n5czqse"
-    ],
-    "Pixie Paris": [
-      "lq7sqy1dhn7hi7h1"
-    ],
-    "Meg & Dia": [
-      "sc59eb0manjq8pmo"
-    ],
-    "Melodic Taste": [
-      "hu3vdt0yr0rglr4q"
-    ],
-    "Polarheart": [
-      "kuqnlzws4oxuuwon"
-    ],
-    "RADWIMPS": [
-      "6ixjbxl60j9rsul3",
-      "eurokiakmml2g2t7",
-      "5wdddlq0cjgg1y57"
-    ],
-    "Lia": [
-      "cbl1midy2v5m997i"
-    ],
-    "Maroon 5": [
-      "qfc7eedy8crd0f7a",
-      "3i8hwg8sjndby33p"
-    ],
-    "Madilyn Bailey": [
-      "ralgml2qeg6ccyj4"
-    ],
     "Daryl Hall & John Oates": [
-      "jsl59m0u30ibe685",
-      "e9wvrrlmo9prgk9m",
-      "mpekun8e1yvtqc5v",
-      "oo1j0umm4fnx3a7w",
-      "572f7armrt6sf2sn",
-      "gzee9s1c9mgxbg2d",
-      "7puk0v3cs6lswabm",
-      "qw04zq66n405x9qw",
-      "l2omg8rzjqjkc74n",
-      "1ikjymwypwx18rwq",
-      "7apmo82427l2lmi8",
-      "etvra73bvvb3j7tb",
-      "s8bex1ipdob346zk",
-      "kgrlyjfvmsm4awo7",
-      "rdaq3mf81i0lz74a",
-      "jwgxje5m79fe2nwg",
-      "bf96h2n6gmvknf73",
-      "dfz9s1uhv9zuhm5a"
-    ],
-    "Mark Petrie": [
-      "bb8y6i3saod9mvff"
-    ],
-    "ABBA": [
-      "musv1glmqhdoe3i1",
-      "felztyf4479lnh50",
-      "8jldcu4ncl6s3dpa",
-      "s5e90rmio6q6td37",
-      "hsbtak3j34byfa3v"
-    ],
-    "Fleetwood Mac": [
-      "yt0o8tzc6b6qlk43",
-      "6cnkt9kp9g5gnn2g",
-      "g5fkx1y07jzpdal1",
-      "jdvx619u44hdhszh",
-      "yvljmhr4c68h9trd",
-      "ub0pgtqvsauyr5o7",
-      "28skh5mauwvol3tg",
-      "dp21stv0g9zapibk"
+      "mgty1o0c78u6jwjl",
+      "uo6pvlcf53tsly9b",
+      "fjhmoe2g9h1fqi40",
+      "ucmkwz97ktqlwycz",
+      "t0b2phmw08fio38i",
+      "1u9g3a5v6xevbsq2",
+      "tantuk3zre8kzpip",
+      "s0hf9dnq6hua8oqh",
+      "8guz4t3o3x3j0bye",
+      "8heohnpinsvu16c0",
+      "jalmczfodwz773p7",
+      "pfe28bioud1gmri5",
+      "gtq4ko697sfzebbc",
+      "mrn3pun5mfq3xhsb",
+      "fdozlzieqscxm9wa",
+      "w8q1n54875sdtv2x",
+      "s6u7wveh5wcrkojf",
+      "3qfv9gluhhkzyma2"
     ]
   },
-  "playlists": {},
+  "playlists": {
+    "Favorites": [
+      "mgty1o0c78u6jwjl",
+      "uo6pvlcf53tsly9b",
+      "fjhmoe2g9h1fqi40",
+      "ucmkwz97ktqlwycz",
+      "t0b2phmw08fio38i",
+      "1u9g3a5v6xevbsq2",
+      "tantuk3zre8kzpip",
+      "s0hf9dnq6hua8oqh",
+      "8guz4t3o3x3j0bye",
+      "8heohnpinsvu16c0",
+      "jalmczfodwz773p7",
+      "pfe28bioud1gmri5",
+      "gtq4ko697sfzebbc",
+      "mrn3pun5mfq3xhsb",
+      "fdozlzieqscxm9wa",
+      "w8q1n54875sdtv2x",
+      "s6u7wveh5wcrkojf",
+      "3qfv9gluhhkzyma2"
+    ]
+  },
   "genres": {
-    "5044899_500858": [
-      "e6tdvcr3bk6uufwt"
-    ],
-    "Electronic": [
-      "kuqnlzws4oxuuwon"
-    ],
-    "Soundtrack": [
-      "cbl1midy2v5m997i"
-    ],
-    "Pop": [
-      "3i8hwg8sjndby33p",
-      "8jldcu4ncl6s3dpa",
-      "hsbtak3j34byfa3v"
-    ],
     "Pop/Rock": [
-      "jsl59m0u30ibe685",
-      "e9wvrrlmo9prgk9m",
-      "mpekun8e1yvtqc5v",
-      "oo1j0umm4fnx3a7w",
-      "572f7armrt6sf2sn",
-      "gzee9s1c9mgxbg2d",
-      "7puk0v3cs6lswabm",
-      "qw04zq66n405x9qw",
-      "l2omg8rzjqjkc74n",
-      "1ikjymwypwx18rwq",
-      "7apmo82427l2lmi8",
-      "etvra73bvvb3j7tb",
-      "s8bex1ipdob346zk",
-      "kgrlyjfvmsm4awo7",
-      "rdaq3mf81i0lz74a",
-      "jwgxje5m79fe2nwg",
-      "bf96h2n6gmvknf73",
-      "dfz9s1uhv9zuhm5a"
-    ],
-    "": [
-      "musv1glmqhdoe3i1",
-      "felztyf4479lnh50",
-      "s5e90rmio6q6td37"
-    ],
-    "Rock": [
-      "yt0o8tzc6b6qlk43",
-      "6cnkt9kp9g5gnn2g",
-      "g5fkx1y07jzpdal1",
-      "jdvx619u44hdhszh",
-      "yvljmhr4c68h9trd",
-      "ub0pgtqvsauyr5o7",
-      "28skh5mauwvol3tg",
-      "dp21stv0g9zapibk"
+      "mgty1o0c78u6jwjl",
+      "uo6pvlcf53tsly9b",
+      "fjhmoe2g9h1fqi40",
+      "ucmkwz97ktqlwycz",
+      "t0b2phmw08fio38i",
+      "1u9g3a5v6xevbsq2",
+      "tantuk3zre8kzpip",
+      "s0hf9dnq6hua8oqh",
+      "8guz4t3o3x3j0bye",
+      "8heohnpinsvu16c0",
+      "jalmczfodwz773p7",
+      "pfe28bioud1gmri5",
+      "gtq4ko697sfzebbc",
+      "mrn3pun5mfq3xhsb",
+      "fdozlzieqscxm9wa",
+      "w8q1n54875sdtv2x",
+      "s6u7wveh5wcrkojf",
+      "3qfv9gluhhkzyma2"
     ]
   },
   "all": {
-    "0iabdhcre0ztlua3": {
-      "title": "Brotherhood",
-      "cover": "\\Brotherhood---Single.jpg",
-      "path": "\\John-Dreamer---Brotherhood.mp3",
-      "artist": "John Dreamer",
-      "album": "Brotherhood - Single",
-      "genre": []
-    },
-    "e6tdvcr3bk6uufwt": {
-      "title": "Still Alive",
-      "cover": "\\The-Orange-Box-O.S.T-.jpg",
-      "path": "\\Jonathan-Coulton-GLaDOS---Still-Alive.mp3",
-      "artist": "None",
-      "album": "The Orange Box(O.S.T)",
-      "genre": [
-        "5044899_500858"
-      ]
-    },
-    "1d0duitar3ozdmvi": {
-      "title": "Grapevine Valentine",
-      "cover": "\\A-Beating-Heart-Is-a-Bleeding-Heart.jpg",
-      "path": "\\Kingsfoil---Grapevine-Valentine.mp3",
-      "artist": "Kingsfoil",
-      "album": "A Beating Heart Is a Bleeding Heart",
-      "genre": []
-    },
-    "hg15yftswol2tgye": {
-      "title": "I Just Wanna Run",
-      "cover": "\\I-Just-Wanna-Run.jpg",
-      "path": "\\Kait-Weston---I-Just-Wanna-Run.mp3",
-      "artist": "Kait Weston",
-      "album": "I Just Wanna Run",
-      "genre": []
-    },
-    "wgbv9zlj9x58su2z": {
-      "title": "菊次郎的夏天",
-      "cover": "\\----.jpg",
-      "path": "\\K.-Williams---------.mp3",
-      "artist": "K. Williams",
-      "album": "金色钢琴",
-      "genre": []
-    },
-    "4245y7te15v2ql12": {
-      "title": "Paradise (Video Edit)",
-      "cover": "\\Paradise.jpg",
-      "path": "\\Jasper-Forks---Paradise--Video-Edit-.mp3",
-      "artist": "Jasper Forks",
-      "album": "Paradise",
-      "genre": []
-    },
-    "nups2r1bf4b5zkep": {
-      "title": "ありがとう...",
-      "cover": "\\Complete-collection-1998-1999.jpg",
-      "path": "\\KOKIA--------.mp3",
-      "artist": "KOKIA",
-      "album": "Complete collection 1998-1999",
-      "genre": []
-    },
-    "e1fbtm47ushjhcns": {
-      "title": "Despacito (Remix)",
-      "cover": "\\Despacito--Remix-.jpg",
-      "path": "\\Luis-Fonsi-Daddy-Yankee-Justin-Bieber---Despacito--Remix-.mp3",
-      "artist": "None",
-      "album": "Despacito (Remix)",
-      "genre": []
-    },
-    "3584xphw6n5czqse": {
-      "title": "crossing field",
-      "cover": "\\----------------------.jpg",
-      "path": "\\LiSA---crossing-field.mp3",
-      "artist": "LiSA",
-      "album": "ソードアート・オンライン ソングコレクション",
-      "genre": []
-    },
-    "7hwytla64cl9d5bp": {
-      "title": "EXEC COSMOFLIPS",
-      "cover": "\\Krut-hymneth-Complete-BOX.jpg",
-      "path": "\\KOKIA---EXEC-COSMOFLIPS.mp3",
-      "artist": "KOKIA",
-      "album": "Krut hymneth Complete BOX",
-      "genre": []
-    },
-    "lq7sqy1dhn7hi7h1": {
-      "title": "Es rappelt im Karton",
-      "cover": "\\Es-rappelt-im-Karton.jpg",
-      "path": "\\Pixie-Paris---Es-rappelt-im-Karton.mp3",
-      "artist": "Pixie Paris",
-      "album": "Es rappelt im Karton",
-      "genre": []
-    },
-    "sc59eb0manjq8pmo": {
-      "title": "Monster (DotEXE Remix)",
-      "cover": "\\Monster-Single--DotEXE-Remix-.jpg",
-      "path": "\\Meg---Dia---Monster--DotEXE-Remix-.mp3",
-      "artist": "Meg & Dia",
-      "album": "Monster Single (DotEXE Remix)",
-      "genre": []
-    },
-    "hu3vdt0yr0rglr4q": {
-      "title": "死地のハクレイ",
-      "cover": "\\Melodic-Battle.jpg",
-      "path": "\\Melodic-Taste----------.mp3",
-      "artist": "Melodic Taste",
-      "album": "Melodic Battle",
-      "genre": []
-    },
-    "kuqnlzws4oxuuwon": {
-      "title": "Paralyse",
-      "cover": "\\-Paralyse.jpg",
-      "path": "\\Polarheart---Paralyse.mp3",
-      "artist": "Polarheart",
-      "album": " Paralyse",
-      "genre": [
-        "Electronic"
-      ]
-    },
-    "6ixjbxl60j9rsul3": {
-      "title": "なんでもないや (movie ver.)",
-      "cover": "\\-----.jpg",
-      "path": "\\RADWIMPS------------movie-ver.-.mp3",
-      "artist": "RADWIMPS",
-      "album": "君の名は。",
-      "genre": []
-    },
-    "eurokiakmml2g2t7": {
-      "title": "前前前世 (movie ver.)",
-      "cover": "\\-----.jpg",
-      "path": "\\RADWIMPS---------movie-ver.-.mp3",
-      "artist": "RADWIMPS",
-      "album": "君の名は。",
-      "genre": []
-    },
-    "cbl1midy2v5m997i": {
-      "title": "鳥の詩",
-      "cover": "\\AIR-Original-SoundTrack.jpg",
-      "path": "\\Lia------.mp3",
-      "artist": "Lia",
-      "album": "AIR Original SoundTrack",
-      "genre": [
-        "Soundtrack"
-      ]
-    },
-    "qfc7eedy8crd0f7a": {
-      "title": "Animals",
-      "cover": "\\Animals.jpg",
-      "path": "\\Maroon-5---Animals.mp3",
-      "artist": "Maroon 5",
-      "album": "Animals",
-      "genre": []
-    },
-    "3i8hwg8sjndby33p": {
-      "title": "Maps",
-      "cover": "\\Maps.jpg",
-      "path": "\\Maroon-5---Maps.mp3",
-      "artist": "Maroon 5",
-      "album": "Maps",
-      "genre": [
-        "Pop"
-      ]
-    },
-    "5wdddlq0cjgg1y57": {
-      "title": "夢灯籠",
-      "cover": "\\-----.jpg",
-      "path": "\\RADWIMPS------.mp3",
-      "artist": "RADWIMPS",
-      "album": "君の名は。",
-      "genre": []
-    },
-    "ralgml2qeg6ccyj4": {
-      "title": "Maps",
-      "cover": "\\The-Cover-Games--Volume-1.jpg",
-      "path": "\\Madilyn-Bailey---Maps.mp3",
-      "artist": "Madilyn Bailey",
-      "album": "The Cover Games, Volume 1",
-      "genre": []
-    },
-    "jsl59m0u30ibe685": {
-      "title": "I Can't Go For That (No Can Do)",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\02---I-Can-t-Go-For-That--No-Can-Do-.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "e9wvrrlmo9prgk9m": {
+    "mgty1o0c78u6jwjl": {
       "title": "You Make My Dreams",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\01---You-Make-My-Dreams.mp3",
@@ -511,7 +120,17 @@
         "Pop/Rock"
       ]
     },
-    "mpekun8e1yvtqc5v": {
+    "uo6pvlcf53tsly9b": {
+      "title": "I Can't Go For That (No Can Do)",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\02---I-Can-t-Go-For-That--No-Can-Do-.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "fjhmoe2g9h1fqi40": {
       "title": "She's Gone",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\03---She-s-Gone.mp3",
@@ -521,7 +140,7 @@
         "Pop/Rock"
       ]
     },
-    "oo1j0umm4fnx3a7w": {
+    "ucmkwz97ktqlwycz": {
       "title": "Family Man",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\04---Family-Man.mp3",
@@ -531,17 +150,7 @@
         "Pop/Rock"
       ]
     },
-    "572f7armrt6sf2sn": {
-      "title": "Method Of Modern Love",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\06---Method-Of-Modern-Love.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "gzee9s1c9mgxbg2d": {
+    "t0b2phmw08fio38i": {
       "title": "Out Of Touch",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\05---Out-Of-Touch.mp3",
@@ -551,7 +160,17 @@
         "Pop/Rock"
       ]
     },
-    "7puk0v3cs6lswabm": {
+    "1u9g3a5v6xevbsq2": {
+      "title": "Method Of Modern Love",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\06---Method-Of-Modern-Love.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "tantuk3zre8kzpip": {
       "title": "Private Eyes",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\07---Private-Eyes.mp3",
@@ -561,37 +180,7 @@
         "Pop/Rock"
       ]
     },
-    "qw04zq66n405x9qw": {
-      "title": "You've Lost That Lovin Feeling",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\10---You-ve-Lost-That-Lovin-Feeling.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "l2omg8rzjqjkc74n": {
-      "title": "Wait For Me",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\09---Wait-For-Me.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "1ikjymwypwx18rwq": {
-      "title": "Maneater",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\12---Maneater.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "7apmo82427l2lmi8": {
+    "s0hf9dnq6hua8oqh": {
       "title": "Sara Smile",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\08---Sara-Smile.mp3",
@@ -601,57 +190,27 @@
         "Pop/Rock"
       ]
     },
-    "etvra73bvvb3j7tb": {
-      "title": "Say It Isn't So",
+    "8guz4t3o3x3j0bye": {
+      "title": "Wait For Me",
       "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\14---Say-It-Isn-t-So.mp3",
+      "path": "\\hall_and_oates\\09---Wait-For-Me.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "s8bex1ipdob346zk": {
-      "title": "Everytime You Go Away (Live)",
+    "8heohnpinsvu16c0": {
+      "title": "You've Lost That Lovin Feeling",
       "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\16---Everytime-You-Go-Away--Live-.mp3",
+      "path": "\\hall_and_oates\\10---You-ve-Lost-That-Lovin-Feeling.mp3",
       "artist": "Daryl Hall & John Oates",
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
       ]
     },
-    "kgrlyjfvmsm4awo7": {
-      "title": "Adult Education",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\15---Adult-Education.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "rdaq3mf81i0lz74a": {
-      "title": "Kiss On My List",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\11---Kiss-On-My-List.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "jwgxje5m79fe2nwg": {
-      "title": "Everything Your Heart Desires (Video Mix)",
-      "cover": "\\Timeless-Classics.jpg",
-      "path": "\\hall_and_oates\\17---Everything-Your-Heart-Desires--Video-Mix-.mp3",
-      "artist": "Daryl Hall & John Oates",
-      "album": "Timeless Classics",
-      "genre": [
-        "Pop/Rock"
-      ]
-    },
-    "bf96h2n6gmvknf73": {
+    "jalmczfodwz773p7": {
       "title": "One On One",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\13---One-On-One.mp3",
@@ -661,7 +220,67 @@
         "Pop/Rock"
       ]
     },
-    "dfz9s1uhv9zuhm5a": {
+    "pfe28bioud1gmri5": {
+      "title": "Maneater",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\12---Maneater.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "gtq4ko697sfzebbc": {
+      "title": "Kiss On My List",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\11---Kiss-On-My-List.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "mrn3pun5mfq3xhsb": {
+      "title": "Say It Isn't So",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\14---Say-It-Isn-t-So.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "fdozlzieqscxm9wa": {
+      "title": "Adult Education",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\15---Adult-Education.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "w8q1n54875sdtv2x": {
+      "title": "Everytime You Go Away (Live)",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\16---Everytime-You-Go-Away--Live-.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "s6u7wveh5wcrkojf": {
+      "title": "Everything Your Heart Desires (Video Mix)",
+      "cover": "\\Timeless-Classics.jpg",
+      "path": "\\hall_and_oates\\17---Everything-Your-Heart-Desires--Video-Mix-.mp3",
+      "artist": "Daryl Hall & John Oates",
+      "album": "Timeless Classics",
+      "genre": [
+        "Pop/Rock"
+      ]
+    },
+    "3qfv9gluhhkzyma2": {
       "title": "Rich Girl",
       "cover": "\\Timeless-Classics.jpg",
       "path": "\\hall_and_oates\\18---Rich-Girl.mp3",
@@ -669,144 +288,6 @@
       "album": "Timeless Classics",
       "genre": [
         "Pop/Rock"
-      ]
-    },
-    "bb8y6i3saod9mvff": {
-      "title": "Go Time",
-      "cover": "\\Go-Time.jpg",
-      "path": "\\Mark-Petrie---Go-Time.mp3",
-      "artist": "Mark Petrie",
-      "album": "Go Time",
-      "genre": []
-    },
-    "musv1glmqhdoe3i1": {
-      "title": "Chiquitita",
-      "cover": "\\Abba-Gold-Anniversary-Edition.jpg",
-      "path": "\\abba\\ABBA---Chiquitita-.mp3",
-      "artist": "ABBA",
-      "album": "Abba Gold Anniversary Edition",
-      "genre": [
-        ""
-      ]
-    },
-    "felztyf4479lnh50": {
-      "title": "Take A Chance On Me",
-      "cover": "\\ABBA-Gold.jpg",
-      "path": "\\abba\\ABBA---Take-A-Chance-On-Me-.mp3",
-      "artist": "ABBA",
-      "album": "ABBA Gold",
-      "genre": [
-        ""
-      ]
-    },
-    "8jldcu4ncl6s3dpa": {
-      "title": "Waterloo",
-      "cover": "\\The-Essential-Collection.jpg",
-      "path": "\\abba\\ABBA---Waterloo-.mp3",
-      "artist": "ABBA",
-      "album": "The Essential Collection",
-      "genre": [
-        "Pop"
-      ]
-    },
-    "s5e90rmio6q6td37": {
-      "title": "Dancing Queen",
-      "cover": "\\ABBA-Gold.jpg",
-      "path": "\\abba\\ABBA---Dancing-Queen-.mp3",
-      "artist": "ABBA",
-      "album": "ABBA Gold",
-      "genre": [
-        ""
-      ]
-    },
-    "hsbtak3j34byfa3v": {
-      "title": "Mamma Mia",
-      "cover": "\\The-Essential-Collection.jpg",
-      "path": "\\abba\\ABBA---Mamma-Mia-.mp3",
-      "artist": "ABBA",
-      "album": "The Essential Collection",
-      "genre": [
-        "Pop"
-      ]
-    },
-    "yt0o8tzc6b6qlk43": {
-      "title": "Dreams",
-      "cover": "",
-      "path": "\\fleetwoodMac\\03-Dreams.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "6cnkt9kp9g5gnn2g": {
-      "title": "Go Your Own Way",
-      "cover": "",
-      "path": "\\fleetwoodMac\\01-Go-Your-Own-Way.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "g5fkx1y07jzpdal1": {
-      "title": "Don't Stop",
-      "cover": "",
-      "path": "\\fleetwoodMac\\02-Don-t-Stop.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "jdvx619u44hdhszh": {
-      "title": "Rhiannon [Single Version]",
-      "cover": "",
-      "path": "\\fleetwoodMac\\08-Rhiannon--Single-Version-.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "yvljmhr4c68h9trd": {
-      "title": "You Make Loving Fun",
-      "cover": "",
-      "path": "\\fleetwoodMac\\07-You-Make-Loving-Fun.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "ub0pgtqvsauyr5o7": {
-      "title": "Everywhere",
-      "cover": "",
-      "path": "\\fleetwoodMac\\05-Everywhere.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "28skh5mauwvol3tg": {
-      "title": "Little Lies",
-      "cover": "",
-      "path": "\\fleetwoodMac\\04-Little-Lies.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
-      ]
-    },
-    "dp21stv0g9zapibk": {
-      "title": "Albatross",
-      "cover": "",
-      "path": "\\fleetwoodMac\\06-Albatross.mp3",
-      "artist": "Fleetwood Mac",
-      "album": "The Very Best Of Fleetwood Mac",
-      "genre": [
-        "Rock"
       ]
     }
   }

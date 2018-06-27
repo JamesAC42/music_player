@@ -1,8 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import musicStore from './js/store.js'
+import MainContainer from './js/components/MainContainer.js'
+import registerServiceWorker from './js/registerServiceWorker.js';
 import './css/index.css';
-import MainContainer from './MainContainer';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<MainContainer />, document.getElementById('root'));
+render(
+    <Provider store={musicStore}>
+      <MainContainer />
+    </Provider>,
+    document.getElementById('root')
+);
+
 registerServiceWorker();

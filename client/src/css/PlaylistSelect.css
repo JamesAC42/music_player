@@ -1,0 +1,83 @@
+.playlist-select {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:320px;
+    width:400px;
+    background-image: linear-gradient( 135deg, rgb(110, 139, 255) 10%, #0b2366 100%);
+    background-image: linear-gradient( 135deg, rgb(62, 61, 107) 10%, rgb(39, 39, 87));
+    border-radius:10px;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    z-index:1000;
+    -webkit-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.75);
+    transition:all .3s ease-in-out;
+    z-index:10001;
+}
+
+.playlist-select-header {
+    position:relative;
+    float:left;
+    height:80px;
+    width:400px;
+    line-height:80px;
+    text-align:center;
+    font-size:22px;
+    color:#fff;
+    border-bottom:1px solid rgba(255, 255, 255, 0.486);
+    margin:0;
+    padding:0;
+}
+
+.playlist-select-list {
+    position:relative;
+    float:left;
+    height:220px;
+    width:420px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+}
+
+.playlist-select-list ul {
+    list-style:none;
+    padding-left:0;
+    list-style-type:none
+}
+
+.playlist-select-list ul li {
+    font-size:18px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    color:rgb(225, 221, 255);
+    cursor:pointer;
+}
+
+.playlist-select-list ul li:hover {
+    opacity:0.5;
+}
+
+.exit-button {
+    position:absolute;
+    top:10px;
+    right:10px;
+    height:26px;
+    width:26px;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+}
+
+.exit-button:hover {
+    opacity:0.5;
+}
+
+.exit-button img {
+    width:26px;
+}

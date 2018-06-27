@@ -1,6 +1,7 @@
 .view-outer {
   position: absolute;
   right:0;
+  top:0;
   height:90vh;
   width:80vw;
   margin:0;
@@ -16,12 +17,13 @@
   transform:translate(-20vw,0);
   width:100vw;
   height:100vh;
-  filter:blur(6px) brightness(90%);
+  filter:blur(5px) brightness(85%);
   z-index:1;
 }
 
 .view-background img {
   margin:0;
+  height:100vh;
   width:100vw;
 }
 
@@ -45,7 +47,7 @@
   margin:0;
   padding:0;
   padding-right:20px;
-  overflow-y:scroll;
+  /* overflow-y:scroll; */
 }
 
 .index-inner {
@@ -54,6 +56,7 @@
   left:50%;
   transform:translate(-50%,0);
   width:60vw;
+  overflow-x:hidden;
 }
 
 .panel {
@@ -96,13 +99,13 @@
   overflow:visible;
 }
 
-#index-rename input {
+#index-rename-input {
   position:absolute;
   display:block;
   left:0;
   top:0;
   height:150px;
-  width:20vw;
+  width:15vw;
   line-height:150px;
   text-align:left;
   margin:0;
@@ -146,8 +149,10 @@
   right:0;
   top:0;
   height:150px;
+  width:50vw;
   margin:0;
   padding:0;
+  overflow:hidden;
 }
 
 .panel-control-hidden {
@@ -206,9 +211,12 @@
 .music-list {
   position:relative;
   width:60vw;
+  height:calc(90vh - 220px);
+  overflow-y:scroll;
   float:left;
   margin:0;
-  padding:10px 0 0 0;
+  padding:0;
+  padding-right:20px;
 }
 
 .music-item {
@@ -222,7 +230,7 @@
 }
 
 .music-item-delete, .queue-item-delete {
-  display:none;
+  display:block;
   opacity:0.5;
   position:absolute;
   height:25px;
@@ -303,11 +311,9 @@
 .options-container {
   display:none;
   position:absolute;
-  height:140px;
+  height:180px;
   width:150px;
-  bottom:45px;
-  left:50%;
-  transform:translate(-50%, -10px);
+  right:25px;
   margin:0;
   padding:0;
   background:rgba(62, 61, 107);
@@ -315,6 +321,15 @@
   -webkit-box-shadow: 0px 10px 37px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 10px 37px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 10px 37px -4px rgba(0,0,0,0.75);
+  z-index:200;
+}
+
+.options-container-top {
+  bottom:45px;
+}
+
+.options-container-bottom {
+  top:45px;
 }
 
 .options-container-visible {
@@ -323,7 +338,7 @@
 
 .options-container-inner {
   position:relative;
-  height:140px;
+  height:180px;
   width:150px;
   margin:0;
   padding:0;
@@ -331,8 +346,8 @@
 
 .tail {
   position:absolute;
-  bottom:0;
-  left:50%;
+  bottom:10px;
+  right:-10px;
   height:28px;
   width:28px;
   border-radius:1px;
@@ -342,7 +357,6 @@
 
 .options-list {
   position:absolute;
-  height:120px;
   width:150px;
   top:50%;
   left:0;
