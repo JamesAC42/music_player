@@ -1,6 +1,7 @@
 const fs = require('fs');
 const formidable = require('formidable');
 const createServer = require('http').createServer;
+const walk = require('./parse.js').walk;
 
 const handler = (req, res) => {
     let dest = req.url;
@@ -11,6 +12,9 @@ const handler = (req, res) => {
                 break;
             case '/getWallpapers':
                 getWallpapers(req, res);
+                break;
+            case '/refreshData':
+                refreshData(req, res);
                 break;
             default:
                 res.end();
@@ -64,6 +68,36 @@ const getWallpapers = (req, res) => {
         res.writeHead(200, {'Content-Type':'application/json'});
         res.end(JSON.stringify(file));
     });
+}
+
+const refreshData = (req, res) => {
+    if (fs.existsSync("./client/public/music")){
+        if (!fs.existsSync("./client/public/covers")){
+            fs.mkdirSync("./client/public/covers");
+        }
+        const playlists = require('./music_saves.json').playlists;
+        walk("./client/public/music/", (err, result) => {
+            if(err) throw err;
+            let dataMap = result;
+            dataMap["playlists"] = playlists;
+            fs.writeFile("./music_saves.json", JSON.stringify(dataMap, null, '  '), "utf8", callback=>{
+                console.log("hello world");
+                console.log(dataMap);
+                res.writeHead(200, {"Content-Type":"application/json"});
+                //res.end(JSON.stringify(dataMap));
+                res.end("hello");
+            });
+        });
+    } else {
+        res.end(JSON.stringify({
+            "songs":{},
+            "albums":{},
+            "artists":{},
+            "playlists":{},
+            "genres":{},
+            "all":{}
+        }));
+    }
 }
 
 const addPlaylist = (req, res) => {

@@ -1,10 +1,11 @@
 const fs = require("fs");
 const path = require("path");
+const sh = require("shorthash");
 
 const mm = require("music-metadata");
 const util = require("util");
 
-let walk = (dir, done) => {
+const walk = (dir, done) => {
     let results = {
         "songs":{},
         "albums":{},
@@ -98,7 +99,7 @@ let walk = (dir, done) => {
                                 entry.genre = (tags.genre === undefined) ?
                                     [] : tags.genre;
 
-                                let id = Math.random().toString(36).substring(2, 10) + Math.random().toString(36).substring(2, 10);
+                                const id = sh.unique(musicPath) // Math.random().toString(36).substring(2, 10) + Math.random().toString(36).substring(2, 10);
                                 results["all"][id] = entry;
 
                                 if(results["songs"][parent] === undefined)
@@ -134,6 +135,11 @@ let walk = (dir, done) => {
     });
 }
 
+module.exports = {
+    walk
+}
+
+/*
 if (fs.existsSync("./client/public/music")){
     if (!fs.existsSync("./client/public/covers")){
         fs.mkdirSync("./client/public/covers");
@@ -146,5 +152,6 @@ if (fs.existsSync("./client/public/music")){
 } else {
     console.log("No music found. Place music in ./music/")
 }
+*/
 
 
