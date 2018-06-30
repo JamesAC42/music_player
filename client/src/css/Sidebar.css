@@ -21,6 +21,26 @@
     background:linear-gradient(rgba(29, 31, 61), rgb(14, 8, 32))
 }
 
+.refresh-outer {
+    position:absolute;
+    width:26px;
+    top:0;
+    left:50%;
+    transform:translate(-50%, 3vw);
+    margin:0;
+    padding:0;
+    cursor:pointer;
+    opacity:0.6;
+}
+
+.refresh-outer:hover {
+    opacity:1
+}
+
+.refresh-outer img {
+    width:26px;
+}
+
 .sidebar-icons-outer {
     position:absolute;
     width:5vw;

@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { viewActions } from '../actions/actions.js';
+import { 
+    viewActions,
+    dataActions
+} from '../actions/actions.js';
 
-const mapStateToProps = (state, props) => ({
+const mapStateToPropsCat = (state, props) => ({
     visibleCategory: state.view.visibleCategory
 })
 
-const mapDispatchToProps = {
+const mapDispatchToPropsCat = {
     changeVisibleCategory: viewActions.changeVisibleCategory
 }
 
@@ -28,9 +31,42 @@ export class SidebarIconBind extends Component {
 }
 
 export const SidebarIcon = connect(
-    mapStateToProps,
-    mapDispatchToProps
+    mapStateToPropsCat,
+    mapDispatchToPropsCat
 )(SidebarIconBind);
+
+const mapDispatchToPropsRefresh = {
+    updateData: dataActions.updateData,
+    resetView: viewActions.resetView
+}
+
+export class RefreshButtonBind extends Component {
+    refreshLibrary = () => {
+        fetch('/refreshData')   
+        .then(res => {
+            console.log(res);
+            return res.json();
+        })
+        .catch(error => console.error('Error:', error))
+        .then(response => {
+            console.log("yoyo ", response);
+            this.props.resetView();
+            //this.props.updateData(response);
+        });
+    }
+    render(){
+        return(
+            <div className="refresh-outer" onClick={this.refreshLibrary}>
+                <img src={window.location.origin + "/icons/icons8-synchronize-52.png"} alt="" title="Refresh Library"/>
+            </div>
+        )
+    }
+}
+
+export const RefreshButton = connect(
+    null,
+    mapDispatchToPropsRefresh
+)(RefreshButtonBind)
 
 export default class SidebarIcons extends Component {
     render() {

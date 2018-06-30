@@ -72,6 +72,7 @@ export class MainContainerBind extends Component {
       return (
         <Sound
           url={window.location.origin + "\\music" + musicPath}
+          autoLoad={true}
           playStatus={Sound.status.PLAYING}
           playFromPosition={this.props.nowPlaying.currentTime}
           volume={this.props.volume}

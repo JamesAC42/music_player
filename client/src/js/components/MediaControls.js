@@ -67,7 +67,8 @@ class MediaControlsBind extends Component {
     }
 
     changeHoverTime = (e) => {
-        let rect = e.target.getBoundingClientRect();
+        console.log(e.target);
+        let rect = e.currentTarget.getBoundingClientRect();
         let x = e.pageX - rect.left;
         let width = e.currentTarget.offsetWidth;
         let percent = x / width;
