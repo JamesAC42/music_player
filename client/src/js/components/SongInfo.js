@@ -9,11 +9,10 @@ const mapStateToProps = (state, props) => ({
 
 class SongInfoBind extends Component {
     render() {
-        let item = {};
         let coverPath = window.location.origin;
-        if(!(this.props.activeSong === undefined)) {
-            let id = this.props.queue[this.props.activeSong];
-            item = this.props.data[id];
+        let id = this.props.queue[this.props.activeSong];
+        let item = id ? this.props.data[id] : {};
+        if(this.props.activeSong !== undefined && item.cover) {
             coverPath += "/covers" + item.cover;
         } else {
             coverPath += "/defaultAlbum.jpg";
