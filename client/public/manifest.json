@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "music_player",
+  "name": "music_player",
   "icons": [
     {
       "src": "favi.ico",
