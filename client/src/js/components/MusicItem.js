@@ -207,7 +207,11 @@ export class MusicItemBind extends Component {
                 <div 
                   className="download"
                   onClick={(e) => {e.stopPropagation()}}>
-                    <a href={item.path} download>Download</a>
+                    <a 
+                      href={window.location.origin + "/music" + item.path} 
+                      download>
+                      Download
+                    </a>
                 </div>
                 {
                   (this.props.queueVisible || this.props.activeCategory === "playlists") &&
