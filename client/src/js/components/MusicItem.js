@@ -105,7 +105,7 @@ export class MusicItemBind extends Component {
     const optionsVisible = !this.state.optionsVisible;
     this.setState({optionsVisible});
     const top = this.item.getBoundingClientRect().top;
-    if(top < 400) {
+    if(top < 440) {
       this.setState({optionsPositionClass:"options-container-bottom"});
     } else {
       this.setState({optionsPositionClass:"options-container-top"})
@@ -203,6 +203,11 @@ export class MusicItemBind extends Component {
                   className="play-next"
                   onClick={this.playNext}>
                     Play Next
+                </div>
+                <div 
+                  className="download"
+                  onClick={(e) => {e.stopPropagation()}}>
+                    <a href={item.path} download>Download</a>
                 </div>
                 {
                   (this.props.queueVisible || this.props.activeCategory === "playlists") &&

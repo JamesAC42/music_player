@@ -310,7 +310,7 @@
 .options-container {
   display:none;
   position:absolute;
-  height:180px;
+  height:220px;
   width:150px;
   right:25px;
   margin:0;
@@ -337,7 +337,7 @@
 
 .options-container-inner {
   position:relative;
-  height:180px;
+  height:220px;
   width:150px;
   margin:0;
   padding:0;
@@ -364,7 +364,7 @@
   padding:0;
 }
 
-.options-list div {
+.options-list div, div.download a {
   position:relative;
   height:40px;
   width:150px;
@@ -377,7 +377,11 @@
   cursor:pointer;
 }
 
-.options-list div:hover {
+div.download a {
+  text-decoration: none;
+}
+
+.options-list div:hover, div.download a:hover {
   color:rgb(134, 151, 247);
 }
 
