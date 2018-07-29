@@ -67,7 +67,6 @@ class MediaControlsBind extends Component {
     }
 
     changeHoverTime = (e) => {
-        console.log(e.target);
         let rect = e.currentTarget.getBoundingClientRect();
         let x = e.pageX - rect.left;
         let width = e.currentTarget.offsetWidth;
@@ -83,10 +82,9 @@ class MediaControlsBind extends Component {
         if(seconds === undefined) return "00:00";
         let total = seconds / 1000;
         let m = total < 60 ? 0 : Math.floor(total / 60);
-        let mString = (m < 10) ? "0" + m : m;
         let s = Math.floor(total % 60);
-        let sString = (s < 10) ? "0" + s : s;
-        let time = mString + ":" + sString;
+        s = s < 10 ? "0" + s : s;
+        let time = m + ":" + s;
         return time;
     }
 
